@@ -1,0 +1,14 @@
+site_name: Minha Documentação Keras
+
+theme:
+  name: material
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          import_paths: [".."]  # Isso substitui os comandos de sys.path
+
+nav:
+  - Home: index.md
+  - Referência do Código: referencia.md

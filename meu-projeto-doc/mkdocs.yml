@@ -1,20 +1,32 @@
-site_name: Minha Documentação Keras
-
+site_name: Keras Documentation Guide
 theme:
   name: material
+  language: pt-BR
+  # Configuração de cores (estilo Google/Keras: Branco e Azul)
+  palette:
+    - scheme: default
+      primary: white
+      accent: indigo
+  features:
+    - content.code.copy          # Adiciona o botão de copiar no código
+    - content.code.annotate      # Permite explicações dentro do código
+    - navigation.sections        # Organiza melhor o menu lateral
+    - toc.follow                 # O menu da direita segue o scroll
 
-plugins:
-  - mkdocstrings:
-      handlers:
-        python:
-          paths: [".."]  # Aqui está a correção: de 'import_paths' para 'paths'
+  # Fontes modernas (iguais às do Google)
+  font:
+    text: Roboto
+    code: Roboto Mono
 
-nav:
-  - Home: index.md
-  - Referência do Código: referencia.md
-
+# Extensões que deixam o código e os botões bonitos
 markdown_extensions:
-  - attr_list
+  - attr_list                    # Necessário para os botões funcionarem
+  - pymdownx.highlight:          # Cores bonitas no código
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg

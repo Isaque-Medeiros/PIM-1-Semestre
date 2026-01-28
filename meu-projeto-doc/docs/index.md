@@ -26,11 +26,7 @@ where each layer has **exactly one input tensor and one output tensor**.
 Schematically, the following `Sequential` model:
 
 ```python
-# Define Sequential model with 3 layers
-model = keras.Sequential(
-    [
-        layers.Dense(2, activation="relu", name="layer1"),
-        layers.Dense(3, activation="relu", name="layer2"),
-        layers.Dense(4, name="layer3"),
-    ]
-)
+model = keras.Sequential([
+    layers.Dense(2, activation="relu"),
+    layers.Dense(3, activation="relu"),
+])

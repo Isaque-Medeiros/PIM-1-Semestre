@@ -7,7 +7,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          import_paths: [".."]  # Isso substitui os comandos de sys.path
+          paths: [".."]  # Aqui está a correção: de 'import_paths' para 'paths'
 
 nav:
   - Home: index.md

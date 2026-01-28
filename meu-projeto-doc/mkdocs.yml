@@ -12,3 +12,9 @@ plugins:
 nav:
   - Home: index.md
   - Referência do Código: referencia.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg

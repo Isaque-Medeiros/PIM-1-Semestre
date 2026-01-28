@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# The Sequential model
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Author:** fchollet  
+**Date created:** 2020/04/12  
+**Last modified:** 2023/06/25
 
-## Commands
+[:simple-googlecolab: Run in Google Colab](https://colab.research.google.com){ .md-button }
+[:simple-github: View source on GitHub](https://github.com){ .md-button }
+[:simple-keras: View on keras.io](https://keras.io){ .md-button }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Setup
 
-## Project layout
+Aqui você importa as bibliotecas necessárias para começar.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        referencia.md  # Other markdown pages, images and other files.
+```python
+import keras
+from keras import layers
+from keras import ops
+``` 
+
+## When to use a Sequential model
+
+A `Sequential` model is appropriate for **a plain stack of layers** 
+where each layer has **exactly one input tensor and one output tensor**.
+
+Schematically, the following `Sequential` model:
+
+```python
+# Define Sequential model with 3 layers
+model = keras.Sequential(
+    [
+        layers.Dense(2, activation="relu", name="layer1"),
+        layers.Dense(3, activation="relu", name="layer2"),
+        layers.Dense(4, name="layer3"),
+    ]
+)

@@ -573,7 +573,7 @@
 <li><strong>Cadastros de Cursos (ONG):</strong> Estruturação de dados acadêmicos utilizando arquivos JSONL para persistência leve.</li>
 <li><strong>Trilha Machine Learning:</strong> Documentação de estudos e implementação de algoritmos fundamentais.</li>
 </ul>
-<details class="example">
+<details class="- example">
 <summary>Ver Amostra de Código SysEscolar (Python)</summary>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
@@ -701,69 +701,132 @@
 </ul>
 <details class="example">
 <summary>Ver Amostra de Código LED 7 Seg (C)</summary>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">    </span><span class="c1">// PRIGRAMA DE EXEMPLO</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kt">int</span><span class="w"> </span><span class="n">vNumeros</span><span class="w"> </span><span class="p">[][</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">},</span><span class="c1">// combinações para formar um caracter, sendo 1 para acender e 0 para apagar.</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">                    </span><span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">},</span><span class="c1">// 1</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//2</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//3</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">                    </span><span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//4</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//5</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//6</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">},</span><span class="c1">//7</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//8</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//9</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">                    </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">},</span><span class="c1">//A</span>
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">                    </span><span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">},</span><span class="c1">//L</span>
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">                    </span><span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">}};</span><span class="c1">//U</span>
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span>
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="p">{</span>
-<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">nCont</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">nCont</span><span class="o">&lt;</span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="n">nCont</span><span class="o">++</span><span class="p">)</span>
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="p">{</span>
-<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="n">pinMode</span><span class="p">(</span><span class="n">nCont</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span><span class="c1">//pinMode para usar a porta, sendo output ou input</span>
-<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">    </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">nCont</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="c1">//Semelhante a Print, colocar o valor 1 de 2 a 8.</span>
-<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="p">}</span>
-<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="n">pinMode</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
-<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="n">pinMode</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
-<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="n">pinMode</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
-<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="n">pinMode</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
-<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="n">pinMode</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
-<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="p">}</span>
-<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>
-<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span>
-<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="p">{</span>
-<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="n">Escrever</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">14</span><span class="p">);</span>
-<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="n">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="n">Escrever</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">);</span>
-<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="n">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="n">Escrever</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">16</span><span class="p">);</span>
-<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="n">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="n">Escrever</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="mi">17</span><span class="p">);</span>
-<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="n">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="n">Escrever</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">18</span><span class="p">);</span>
-<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="n">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a>
-<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="p">}</span>
-<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>
-<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="kt">void</span><span class="w"> </span><span class="nf">Escrever</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">nNum</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">nDig</span><span class="p">)</span>
-<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="p">{</span>
-<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
-<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
-<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
-<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
-<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
-<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="n">digitalWrite</span><span class="p">(</span><span class="n">nDig</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a>
-<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">nCont</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">nCont</span><span class="o">&lt;</span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="n">nCont</span><span class="o">++</span><span class="p">)</span>
-<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a><span class="w">    </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">nCont</span><span class="p">,</span><span class="w"> </span><span class="n">vNumeros</span><span class="p">[</span><span class="n">nNum</span><span class="p">][</span><span class="n">nCont</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">2</span><span class="p">]);</span>
-<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a>
-<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a><span class="p">}</span>
+<p><img alt="Imagem Arduino" src="assets/captura-arduino.png" /></p>
+<div class="highlight"><pre><span></span><code>```C
+char vNum [][35] =
 </code></pre></div>
+<p>{{0,0,0,0,0,0,0,
+    0,0,0,0,0,0,0,
+    1,1,1,1,1,1,1,         //I
+    0,0,0,0,0,0,0,<br />
+    0,0,0,0,0,0,0},
+    {1,0,0,1,1,1,1,
+    1,0,0,1,0,0,1,
+    1,0,0,1,0,0,1,         //S
+    1,0,0,1,0,0,1,
+    1,1,1,1,0,0,1},
+    {1,1,1,1,1,1,1,
+    1,0,0,1,0,0,0,
+    1,0,0,1,0,0,0,         //A
+    1,0,0,1,0,0,0,
+    1,1,1,1,1,1,1},
+    {0,1,1,1,1,0,0,
+    1,0,0,0,0,1,0,
+    1,0,0,0,1,1,1,         //Q
+    1,0,0,0,0,1,0,
+    0,1,1,1,1,0,1},
+    {1,1,1,1,1,1,1,
+    0,0,0,0,0,0,1,
+    0,0,0,0,0,0,1,         //U
+    0,0,0,0,0,0,1,
+    1,1,1,1,1,1,1},
+    {1,1,1,1,1,1,1,
+    1,0,0,1,0,0,1,
+    1,0,0,1,0,0,1,          //E
+    1,0,0,1,0,0,1,
+    1,0,0,1,0,0,1}};</p>
+<p>int nAux, nCont, nCont2, volta;
+void setup()
+{
+for(nCont= 2; nCont&lt;14; nCont++)
+    pinMode(nCont, OUTPUT);
+}
+void loop()
+{
+for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [0][(nCont2 - 7) + nAux]);
+} 
+}
+for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [1][(nCont2 - 7) + nAux]);
+}
+}
+{</p>
+<p>for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [2][(nCont2 - 7) + nAux]);
+}
+} 
+}
+{
+for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [3][(nCont2 - 7) + nAux]);
+}
+} 
+}
+{
+for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [4][ (nCont2 - 7) + nAux]);
+}
+} 
+}
+{</p>
+<p>for (volta=0; volta&lt;20; volta++){
+nAux = -7;
+for(nCont=6; nCont&gt;1; nCont--)
+{
+nAux+= 7;
+fnApagar();
+digitalWrite(nCont, 0);
+for(nCont2=7; nCont2&lt;14; nCont2++)
+    digitalWrite(nCont2, vNum [5][ (nCont2 - 7) + nAux]);
+}
+} 
+}
+}</p>
+<p>void fnApagar()
+{
+delay(25);
+for(nCont2= 2; nCont2&lt; 7; nCont2++)
+    digitalWrite(nCont2, 1);
+for(nCont2= 7; nCont2&lt; 14; nCont2++)
+    digitalWrite(nCont2, 0);
+}
+```</p>
 </details>
 <hr />
 <h2 id="desenvolvimento-web-e-cloud">🌐 Desenvolvimento Web e Cloud</h2>
@@ -780,6 +843,69 @@
 <li><strong>Excel Avançado:</strong> Desenvolvimento de dashboards e automação de atendimento via JavaScript/Office Scripts.</li>
 <li><strong>Organização de Processos:</strong> Estruturação de planilhas inteligentes para gestão de tempo e tarefas.</li>
 </ul>
+<p>Abaixo, apresento um projeto de <strong>automação para preenchimento de formulários do Google Forms</strong> utilizando dados extraídos diretamente de planilhas, visando otimizar processos repetitivos.</p>
+<p><a class="md-button" href="assets/projeto-planilha.xlsx">Baixar Planilha</a> </p>
+<p>O script lê os dados da planilha (Excel/CSV) e utiliza uma logica em Java Script para preencher cada campo do formulário automaticamente.</p>
+<details>
+<summary>Ver JavaScript da Planilha</summary>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">    </span><span class="kd">function</span><span class="w"> </span><span class="nx">onEdit</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="c1">// Define os nomes das abas</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">abaEntrada</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Pagina de busca&#39;</span><span class="p">;</span><span class="w"> </span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">abaDestino</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Pagina de Sistema&#39;</span><span class="p">;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">range</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">range</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">sheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">range</span><span class="p">.</span><span class="nx">getSheet</span><span class="p">();</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="c1">// Garante que a edição ocorreu na aba correta antes de prosseguir</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">sheet</span><span class="p">.</span><span class="nx">getName</span><span class="p">()</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="nx">abaEntrada</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">        </span><span class="k">return</span><span class="p">;</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">notation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">range</span><span class="p">.</span><span class="nx">getA1Notation</span><span class="p">();</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">ss</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">source</span><span class="p">;</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">sheetEntrada</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ss</span><span class="p">.</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="nx">abaEntrada</span><span class="p">);</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">sheetDestino</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ss</span><span class="p">.</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="nx">abaDestino</span><span class="p">);</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="c1">// --- Processo de Salvar Dados e Limpar ---</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">notation</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">&#39;B10&#39;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">        </span><span class="c1">// Pega todos os valores de B5:B10 (retorna uma matriz 2D)</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">valoresDeEntrada</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sheetEntrada</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="s1">&#39;B5:B10&#39;</span><span class="p">).</span><span class="nx">getValues</span><span class="p">();</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">        </span><span class="c1">// Verifica se algum campo está vazio usando o método some()</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">        </span><span class="c1">// flat() transforma a matriz [[v1],[v2]] em [v1, v2]</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">valoresDeEntrada</span><span class="p">.</span><span class="nx">flat</span><span class="p">().</span><span class="nx">some</span><span class="p">(</span><span class="nx">celula</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">celula</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="w">        </span><span class="k">return</span><span class="p">;</span><span class="w"> </span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="w">        </span><span class="c1">// Mapeamento das variáveis (índices do array valoresDeEntrada)</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">bp</span><span class="p">,</span><span class="w"> </span><span class="nx">nome</span><span class="p">,</span><span class="w"> </span><span class="nx">motivo</span><span class="p">,</span><span class="w"> </span><span class="nx">codigo</span><span class="p">,</span><span class="w"> </span><span class="nx">nota</span><span class="p">,</span><span class="w"> </span><span class="nx">comentario</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">valoresDeEntrada</span><span class="p">.</span><span class="nx">flat</span><span class="p">();</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="w">        </span><span class="c1">// Encontra a próxima linha de forma instantânea</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">proximaLinha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sheetDestino</span><span class="p">.</span><span class="nx">getLastRow</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="w">        </span><span class="c1">// Grava os dados. Usar setValues em bloco é muito mais rápido que vários setValue</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">        </span><span class="c1">// A=bp, B=nome, C=codigo, D=motivo, E=nota</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="w">        </span><span class="nx">sheetDestino</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">proximaLinha</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">5</span><span class="p">).</span><span class="nx">setValues</span><span class="p">([[</span><span class="nx">bp</span><span class="p">,</span><span class="w"> </span><span class="nx">nome</span><span class="p">,</span><span class="w"> </span><span class="nx">codigo</span><span class="p">,</span><span class="w"> </span><span class="nx">motivo</span><span class="p">,</span><span class="w"> </span><span class="nx">nota</span><span class="p">]]);</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">        </span><span class="c1">// H=comentario (Coluna 8)</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="w">        </span><span class="nx">sheetDestino</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">proximaLinha</span><span class="p">,</span><span class="w"> </span><span class="mf">8</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">comentario</span><span class="p">);</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">        </span><span class="c1">// Chama a função de limpeza comum</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">        </span><span class="nx">limparEntrada</span><span class="p">(</span><span class="nx">sheetEntrada</span><span class="p">);</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a>
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="w">    </span><span class="c1">// --- Processo de Limpeza Independente (G5) ---</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">notation</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">&#39;G5&#39;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="w">        </span><span class="nx">limparEntrada</span><span class="p">(</span><span class="nx">sheetEntrada</span><span class="p">);</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a>
+<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="c1">// Função auxiliar para evitar repetição de código</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="kd">function</span><span class="w"> </span><span class="nx">limparEntrada</span><span class="p">(</span><span class="nx">sheet</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a><span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="s1">&#39;B5:B10&#39;</span><span class="p">).</span><span class="nx">clearContent</span><span class="p">();</span>
+<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="c1">// Insere a fórmula novamente com a concatenação correta de strings</span>
+<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="s1">&#39;B6&#39;</span><span class="p">).</span><span class="nx">setFormula</span><span class="p">(</span><span class="s1">&#39;=INDEX(AF:AF; MATCH(B5; AA:AA; 0))&#39;</span><span class="p">);</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="p">}</span>
+</code></pre></div>
+</details>
 <hr />
 <h3 id="contato-e-redes">📬 Contato e Redes</h3>
 

@@ -1,9 +1,8 @@
-site_name: Aprendendo Python do Zero
+site_name: Meus Projetos
 theme:
   name: material
   language: pt-BR
-  # Definindo o ícone/favicon se tiver
-  # favicon: assets/favicon.png 
+  logo: assets/logo.png  # Caminho para sua imagem
   palette: 
     # Esquema Escuro (Slate) - Para combinar com o site
     - scheme: slate
@@ -34,7 +33,12 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
-
+  - pymdownx.details  # ESSA LINHA É A QUE FAZ O "BOTÃO DE EXPANDIR"
+  - admonition
 # Atenção ao caminho aqui: crie a pasta 'css' dentro de 'docs'
 extra_css:
   - css/meu_estilo_customizado.css
+
+extra:
+  generator: false  # Isso remove a frase "Made with MkDocs" do rodapé
+

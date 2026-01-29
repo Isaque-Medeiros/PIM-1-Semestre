@@ -2,22 +2,39 @@ site_name: Aprendendo Python do Zero
 theme:
   name: material
   language: pt-BR
-  palette:
+  # Definindo o ícone/favicon se tiver
+  # favicon: assets/favicon.png 
+  palette: 
+    # Esquema Escuro (Slate) - Para combinar com o site
+    - scheme: slate
+      primary: black  # Vamos sobrescrever isso no CSS para o seu azul exato
+      accent: cyan    # Ciano ou Teal combinam muito bem com fundo azul marinho
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo claro
+
+    # Esquema Claro (Opcional, caso o usuário queira trocar)
     - scheme: default
-      primary: white
+      primary: indigo
       accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo escuro
+
   features:
-    - content.code.copy        # Botão de copiar no código
-    - navigation.sections      # Menu organizado
+    - content.code.copy
+    - navigation.sections
+    - navigation.top # Botão de voltar ao topo é útil
   font:
-    text: Inter                # Fonte moderna e limpa
-    code: Fira Code            # Fonte de código bonita
+    text: Inter
+    code: Fira Code
 
 markdown_extensions:
-  - admonition                 # Caixas de aviso coloridas
-  - pymdownx.highlight:        # Cores no código
+  - admonition
+  - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences       # Blocos de código avançados
+  - pymdownx.superfences
 
+# Atenção ao caminho aqui: crie a pasta 'css' dentro de 'docs'
 extra_css:
   - css/meu_estilo_customizado.css

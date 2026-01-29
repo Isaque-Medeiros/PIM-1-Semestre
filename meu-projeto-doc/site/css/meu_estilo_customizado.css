@@ -1,0 +1,59 @@
+/* Sobrescrevendo as cores do tema escuro (Slate) */
+[data-md-color-scheme="slate"] {
+  /* ... (suas configurações de fundo anteriores continuam aqui) ... */
+
+  /* --- CORES DO CÓDIGO (SYNTAX HIGHLIGHTING) --- */
+  
+  /* Cor do texto padrão do código (o que não é destaque) - Branco puro */
+  --md-code-fg-color: #ffffff;
+  
+  /* Fundo do bloco de código - Um pouco mais escuro que o site para contraste */
+  --md-default-bg-color: #020d24;  
+
+  /* Palavras-chave (def, class, if, return) - Rosa Neon */
+  --md-code-hl-keyword-color: #ff79c6;
+  
+  /* Funções (print, len, input) - Ciano Brilhante */
+  --md-code-hl-function-color: #8be9fd;
+  
+  /* Strings ("texto") - Amarelo/Verde vivo */
+  --md-code-hl-string-color: #f1fa8c;
+  
+  /* Números (10, 3.14) - Roxo ou Laranja */
+  --md-code-hl-number-color: #bd93f9;
+  
+  /* Operadores (=, +, -, :) - Rosa */
+  --md-code-hl-operator-color: #ff79c6;
+  
+  /* Comentários (# texto) - Cinza claro (para ser legível) */
+  --md-code-hl-comment-color: #8e9db3;
+  
+  /* Classes e Tipos - Laranja */
+  --md-code-hl-name-color: #ffb86c;
+  
+  /* Variáveis especiais/constantes - Vermelho/Laranja */
+  --md-code-hl-special-color: #ff5555;
+}
+
+/* Opcional: Centralizar o título da página inicial (H1) */
+/* Isso imita o estilo "Landing Page" do seu print */
+.md-content__inner h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+/* Estilizar botões para parecerem com os do seu site (Borda arredondada) */
+.md-button {
+  border-radius: 50px; /* Deixa o botão redondo (pílula) */
+  border: 1px solid var(--md-accent-fg-color);
+  background: transparent;
+  color: var(--md-accent-fg-color);
+  transition: all 0.3s ease;
+}
+
+.md-button:hover {
+  background: var(--md-accent-fg-color);
+  color: #020d24; /* Texto escuro ao passar o mouse */
+}

@@ -1,32 +1,23 @@
-site_name: Keras Documentation Guide
+site_name: Aprendendo Python do Zero
 theme:
   name: material
   language: pt-BR
-  # Configuração de cores (estilo Google/Keras: Branco e Azul)
   palette:
     - scheme: default
       primary: white
-      accent: indigo
+      accent: deep purple
   features:
-    - content.code.copy          # Adiciona o botão de copiar no código
-    - content.code.annotate      # Permite explicações dentro do código
-    - navigation.sections        # Organiza melhor o menu lateral
-    - toc.follow                 # O menu da direita segue o scroll
-
-  # Fontes modernas (iguais às do Google)
+    - content.code.copy        # Botão de copiar no código
+    - navigation.sections      # Menu organizado
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter                # Fonte moderna e limpa
+    code: Fira Code            # Fonte de código bonita
 
-# Extensões que deixam o código e os botões bonitos
 markdown_extensions:
-  - attr_list                    # Necessário para os botões funcionarem
-  - pymdownx.highlight:          # Cores bonitas no código
+  - admonition                 # Caixas de aviso coloridas
+  - pymdownx.highlight:        # Cores no código
       anchor_linenums: true
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.superfences       # Blocos de código avançados
+
+extra_css:
+  - css/meu_estilo_customizado.css

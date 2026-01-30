@@ -8,7 +8,7 @@
   --md-code-fg-color: #ffffff;
   
   /* Fundo do bloco de código - Um pouco mais escuro que o site para contraste */
-  --md-default-bg-color: #020d24;  
+  --md-default-bg-color: #000b29;  
 
   /* Palavras-chave (def, class, if, return) - Rosa Neon */
   --md-code-hl-keyword-color: #ff79c6;

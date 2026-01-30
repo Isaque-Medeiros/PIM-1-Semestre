@@ -12,7 +12,7 @@ Desenvolvedor focado em soluções estruturadas, com experiência acadêmica e t
 *   **Cadastros de Cursos (ONG):** Estruturação de dados acadêmicos utilizando arquivos JSONL para persistência leve.
 *   **Trilha Machine Learning:** Documentação de estudos e implementação de algoritmos fundamentais.
 
-??? example "Ver Amostra de Código SysEscolar (Python)"
+???- example "Ver Amostra de Código SysEscolar (Python)"
 
     ```python
     import json
@@ -142,69 +142,59 @@ Desenvolvedor focado em soluções estruturadas, com experiência acadêmica e t
 *   **Tinkercad & Arduino:** Desenvolvimento de lógica para hardware (LEDs de 7 segmentos, Semáforos e Sensores) com linguagem C pura.
 
 ??? example "Ver Amostra de Código LED 7 Seg (C)"
+    ![Imagem Arduino](assets/captura-arduino.png)
 
-    ```C
-        // PRIGRAMA DE EXEMPLO
-    int vNumeros [][7] = {{1, 1, 1, 1, 1, 1, 0},// combinações para formar um caracter, sendo 1 para acender e 0 para apagar.
-                        {0, 1, 1, 0, 0, 0, 0},// 1
-                        {1, 1, 0, 1, 1, 0, 1},//2
-                        {1, 1, 1, 1, 0, 0, 1},//3
-                        {0, 1, 1, 0, 0, 1, 1},//4
-                        {1, 0, 1, 1, 0, 1, 1},//5
-                        {1, 0, 1, 1, 1, 1, 1},//6
-                        {1, 1, 1, 0, 0, 0, 0},//7
-                        {1, 1, 1, 1, 1, 1, 1},//8
-                        {1, 1, 1, 1, 0, 1, 1},//9
-                        {1, 1, 1, 0, 1, 1, 1},//A
-                        {0, 0, 0, 1, 1, 1, 0},//L
-                        {0, 1, 1, 1, 1, 1, 0}};//U
+    ```c
+    // Matriz de caracteres: I, S, A, Q, U, E
+    char vNum[][35] = {
+        {0,0,0,0,0,0,0, 0,0,0,0,0,0,0, 1,1,1,1,1,1,1, 0,0,0,0,0,0,0, 0,0,0,0,0,0,0}, // I
+        {1,0,0,1,1,1,1, 1,0,0,1,0,0,1, 1,0,0,1,0,0,1, 1,0,0,1,0,0,1, 1,1,1,1,0,0,1}, // S
+        {1,1,1,1,1,1,1, 1,0,0,1,0,0,0, 1,0,0,1,0,0,0, 1,0,0,1,0,0,0, 1,1,1,1,1,1,1}, // A
+        {0,1,1,1,1,0,0, 1,0,0,0,0,1,0, 1,0,0,0,1,1,1, 1,0,0,0,0,1,0, 0,1,1,1,1,0,1}, // Q
+        {1,1,1,1,1,1,1, 0,0,0,0,0,0,1, 0,0,0,0,0,0,1, 0,0,0,0,0,0,1, 1,1,1,1,1,1,1}, // U
+        {1,1,1,1,1,1,1, 1,0,0,1,0,0,1, 1,0,0,1,0,0,1, 1,0,0,1,0,0,1, 1,0,0,1,0,0,1}  // E
+    };
 
-    void setup()
-    {
-    for(int nCont=2; nCont<9; nCont++)
-    {
-        pinMode(nCont, OUTPUT); //pinMode para usar a porta, sendo output ou input
-        digitalWrite(nCont, 0);//Semelhante a Print, colocar o valor 1 de 2 a 8.
-    }
-    pinMode(14, OUTPUT); 
-    digitalWrite(14, 0);
-    pinMode(15, OUTPUT); 
-    digitalWrite(15, 0);
-    pinMode(16, OUTPUT); 
-    digitalWrite(16, 0);
-    pinMode(17, OUTPUT); 
-    digitalWrite(17, 0);
-    pinMode(18, OUTPUT); 
-    digitalWrite(18, 0);
+    int nAux, nCont, nCont2, volta;
+
+    void setup() {
+        for (nCont = 2; nCont < 14; nCont++) {
+            pinMode(nCont, OUTPUT);
+        }
     }
 
-    void loop()
-    {
-    Escrever(5, 14);
-    delay(10);
-    Escrever(10, 15);
-    delay(10);
-    Escrever(12, 16);
-    delay(10);
-    Escrever(11, 17);
-    delay(10);
-    Escrever(0, 18);
-    delay(10);
-
+    void loop() {
+        // Percorre cada uma das 6 letras definidas na matriz vNum
+        for (int i = 0; i < 6; i++) {
+            
+            // Controla o tempo que cada letra fica exibida (persistência)
+            for (volta = 0; volta < 20; volta++) {
+                nAux = -7;
+                
+                // Varredura dos displays (Multiplexação) - Pinos 6 a 2
+                for (nCont = 6; nCont > 1; nCont--) {
+                    nAux += 7;
+                    fnApagar();
+                    
+                    digitalWrite(nCont, 0); // Ativa o dígito comum (catodo/anodo)
+                    
+                    // Liga os segmentos correspondentes (Pinos 7 a 13)
+                    for (nCont2 = 7; nCont2 < 14; nCont2++) {
+                        digitalWrite(nCont2, vNum[i][(nCont2 - 7) + nAux]);
+                    }
+                }
+            }
+        }
     }
 
-    void Escrever(int nNum, int nDig)
-    {
-    digitalWrite(14, 1);
-    digitalWrite(15, 1);
-    digitalWrite(16, 1);
-    digitalWrite(17, 1);
-    digitalWrite(18, 1);
-    digitalWrite(nDig, 0);
-    
-    for(int nCont=2; nCont<9; nCont++)
-        digitalWrite(nCont, vNumeros[nNum][nCont - 2]);
-    
+    void fnApagar() {
+        delay(5); // Um delay menor (5-10ms) ajuda a evitar cintilação (flicker)
+        for (int i = 2; i < 7; i++) {
+            digitalWrite(i, 1); // Desliga os comuns
+        }
+        for (int i = 7; i < 14; i++) {
+            digitalWrite(i, 0); // Desliga os segmentos
+        }
     }
     ```
 
@@ -225,6 +215,73 @@ Desenvolvedor focado em soluções estruturadas, com experiência acadêmica e t
 
 *   **Excel Avançado:** Desenvolvimento de dashboards e automação de atendimento via JavaScript/Office Scripts.
 *   **Organização de Processos:** Estruturação de planilhas inteligentes para gestão de tempo e tarefas.
+
+Abaixo, apresento um projeto de **automação para preenchimento de formulários do Google Forms** utilizando dados extraídos diretamente de planilhas, visando otimizar processos repetitivos.
+
+[Baixar Planilha](assets/projeto-planilha.xlsx){ .md-button } 
+
+O script lê os dados da planilha (Excel/CSV) e utiliza uma logica em Java Script para preencher cada campo do formulário automaticamente.
+
+??? "Ver JavaScript da Planilha"
+
+    ```JavaScript
+        function onEdit(e) {
+        // Define os nomes das abas
+        const abaEntrada = 'Pagina de busca'; 
+        const abaDestino = 'Pagina de Sistema';
+
+        const range = e.range;
+        const sheet = range.getSheet();
+
+        // Garante que a edição ocorreu na aba correta antes de prosseguir
+        if (sheet.getName() !== abaEntrada) {
+            return;
+        }
+
+        const notation = range.getA1Notation();
+        const ss = e.source;
+        const sheetEntrada = ss.getSheetByName(abaEntrada);
+        const sheetDestino = ss.getSheetByName(abaDestino);
+
+        // --- Processo de Salvar Dados e Limpar ---
+        if (notation === 'B10') {
+            // Pega todos os valores de B5:B10 (retorna uma matriz 2D)
+            const valoresDeEntrada = sheetEntrada.getRange('B5:B10').getValues();
+
+            // Verifica se algum campo está vazio usando o método some()
+            // flat() transforma a matriz [[v1],[v2]] em [v1, v2]
+            if (valoresDeEntrada.flat().some(celula => celula === '')) {
+            return; 
+            }
+
+            // Mapeamento das variáveis (índices do array valoresDeEntrada)
+            const [bp, nome, motivo, codigo, nota, comentario] = valoresDeEntrada.flat();
+
+            // Encontra a próxima linha de forma instantânea
+            const proximaLinha = sheetDestino.getLastRow() + 1;
+
+            // Grava os dados. Usar setValues em bloco é muito mais rápido que vários setValue
+            // A=bp, B=nome, C=codigo, D=motivo, E=nota
+            sheetDestino.getRange(proximaLinha, 1, 1, 5).setValues([[bp, nome, codigo, motivo, nota]]);
+            // H=comentario (Coluna 8)
+            sheetDestino.getRange(proximaLinha, 8).setValue(comentario);
+
+            // Chama a função de limpeza comum
+            limparEntrada(sheetEntrada);
+
+        // --- Processo de Limpeza Independente (G5) ---
+        } else if (notation === 'G5') {
+            limparEntrada(sheetEntrada);
+        }
+        }
+
+    // Função auxiliar para evitar repetição de código
+    function limparEntrada(sheet) {
+    sheet.getRange('B5:B10').clearContent();
+    // Insere a fórmula novamente com a concatenação correta de strings
+    sheet.getRange('B6').setFormula('=INDEX(AF:AF; MATCH(B5; AA:AA; 0))');
+    }
+    ```
 
 ---
 

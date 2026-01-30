@@ -35,6 +35,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details  # ESSA LINHA É A QUE FAZ O "BOTÃO DE EXPANDIR"
   - admonition
+  - attr_list
 # Atenção ao caminho aqui: crie a pasta 'css' dentro de 'docs'
 extra_css:
   - css/meu_estilo_customizado.css

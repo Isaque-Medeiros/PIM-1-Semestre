@@ -1,0 +1,136 @@
+{
+  "test_summary": {
+    "total_tests": 18,
+    "passed_tests": 13,
+    "failed_tests": 5,
+    "success_rate": "72.2%"
+  },
+  "performance_metrics": {
+    "Unit Tests": 0.008832216262817383,
+    "OCR Integration": 0.00022935867309570312,
+    "Browser Automation": 0.5579748153686523,
+    "Form Filling Workflow": 0.00046324729919433594,
+    "UI Components": 0.0004858970642089844,
+    "Business Rules": 0.0003387928009033203,
+    "Name Correction Rules": 0.0004470348358154297,
+    "Performance Requirements": 0.0003409385681152344,
+    "Error Handling": 0.0003390312194824219,
+    "Specification Compliance": 0.0003292560577392578
+  },
+  "test_details": [
+    {
+      "test": "Rules Engine",
+      "success": true,
+      "message": "All validation tests passed",
+      "duration": 0
+    },
+    {
+      "test": "SabreScreen",
+      "success": true,
+      "message": "Object creation and field tests passed",
+      "duration": 0
+    },
+    {
+      "test": "LatamForm",
+      "success": true,
+      "message": "Object creation and field mapping tests passed",
+      "duration": 0
+    },
+    {
+      "test": "ImageProcessor",
+      "success": true,
+      "message": "Object creation tests passed",
+      "duration": 0
+    },
+    {
+      "test": "StatusIndicator",
+      "success": true,
+      "message": "All status tests passed",
+      "duration": 0
+    },
+    {
+      "test": "OverlayWindow",
+      "success": true,
+      "message": "Object creation and property tests passed",
+      "duration": 0
+    },
+    {
+      "test": "Field Mappings",
+      "success": true,
+      "message": "All field mappings from specification are correct",
+      "duration": 0
+    },
+    {
+      "test": "Business Rules",
+      "success": true,
+      "message": "All business rule validations passed",
+      "duration": 0
+    },
+    {
+      "test": "Name Correction Rules",
+      "success": false,
+      "message": "Error: Invalid correction should require documentation",
+      "duration": 0
+    },
+    {
+      "test": "OCR Integration",
+      "success": false,
+      "message": "Error: 'SabreOCR' object has no attribute 'extract_text_from_image'",
+      "duration": 0
+    },
+    {
+      "test": "Browser Automation",
+      "success": false,
+      "message": "Browser initialization failed",
+      "duration": 0
+    },
+    {
+      "test": "Form Filling Workflow",
+      "success": false,
+      "message": "Error: 'str' object has no attribute 'value'",
+      "duration": 0
+    },
+    {
+      "test": "UI Components",
+      "success": true,
+      "message": "UI components work correctly",
+      "duration": 0
+    },
+    {
+      "test": "Business Rules",
+      "success": true,
+      "message": "All business rules work correctly",
+      "duration": 0
+    },
+    {
+      "test": "Name Correction Rules",
+      "success": false,
+      "message": "Error: Orthographic correction test failed for ALBERTO -> ALBERNO",
+      "duration": 0
+    },
+    {
+      "test": "Performance Requirements",
+      "success": true,
+      "message": "Performance within limits (OCR: 0.00s, Form: 0.00s)",
+      "duration": 0
+    },
+    {
+      "test": "Error Handling",
+      "success": true,
+      "message": "Error handling works correctly",
+      "duration": 0
+    },
+    {
+      "test": "Specification Compliance",
+      "success": true,
+      "message": "All specification requirements met",
+      "duration": 0
+    }
+  ],
+  "compliance_status": {
+    "specification_compliance": true,
+    "performance_requirements": true,
+    "error_handling": true,
+    "business_rules": true
+  }
+}

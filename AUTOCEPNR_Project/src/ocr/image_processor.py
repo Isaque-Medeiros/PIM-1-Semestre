@@ -8,7 +8,12 @@ import cv2
 import numpy as np
 from PIL import Image
 import pyperclip
-import pyautogui
+
+# pyautogui requires an X display; import lazily to avoid headless errors
+try:
+    import pyautogui
+except Exception:
+    pyautogui = None
 from typing import Optional, Tuple, Union, List
 import logging
 from pathlib import Path
@@ -55,10 +60,15 @@ class ImageProcessor:
                 return None
             
             else:
-                # Try to get screenshot as fallback
-                self.logger.info("No image in clipboard, taking screenshot")
-                screenshot = pyautogui.screenshot()
-                return np.array(screenshot)
+                # Try to get screenshot as fallback (only if pyautogui available)
+                self.logger.info("No image in clipboard")
+                if pyautogui is not None:
+                    self.logger.info("taking screenshot")
+                    screenshot = pyautogui.screenshot()
+                    return np.array(screenshot)
+                else:
+                    self.logger.info("pyautogui unavailable; cannot take screenshot")
+                    return None
                 
         except Exception as e:
             self.logger.error(f"Error loading from clipboard: {e}")

@@ -12,7 +12,13 @@ import cv2
 import numpy as np
 from PIL import Image
 import pyperclip
-import pyautogui
+
+# pyautogui depends on a display and mouseinfo; import lazily to avoid issues
+# in headless environments (tests, CI) where DISPLAY may be unset.
+try:
+    import pyautogui
+except Exception:
+    pyautogui = None
 
 from .rules_engine import RulesEngine, ValidationResult
 
@@ -58,9 +64,13 @@ class SabreScreen:
                 return True
             else:
                 # Try to get screenshot if clipboard doesn't have image
-                self.raw_image = pyautogui.screenshot()
-                self.raw_image = np.array(self.raw_image)
-                return True
+                if pyautogui is not None:
+                    self.raw_image = pyautogui.screenshot()
+                    self.raw_image = np.array(self.raw_image)
+                    return True
+                else:
+                    # pyautogui unavailable (likely headless); skip screenshot
+                    return False
         except Exception as e:
             print(f"Error loading from clipboard: {e}")
             return False

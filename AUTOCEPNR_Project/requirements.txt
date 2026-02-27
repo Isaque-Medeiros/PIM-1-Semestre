@@ -2,7 +2,8 @@
 # Spec-Driven Development Implementation
 
 # Core Dependencies
-python>=3.11.0
+# (Especifique a versão do Python no ambiente; o pip não instala o interpretador)
+# python>=3.11.0
 
 # OCR and Image Processing
 easyocr>=1.7.0
@@ -14,7 +15,8 @@ numpy>=1.24.0
 playwright>=1.40.0
 
 # UI Components
-tk>=8.6
+# Observação: 'tk' é um pacote do sistema (tkinter). Não instalado via pip:
+# tk>=8.6
 
 # System and Utilities
 pyperclip>=1.8.0

@@ -212,39 +212,39 @@ class RulesEngine:
         return ' '.join(name_upper.split())  # Remove extra spaces
     
     def _is_orthographic_correction(self, old_name: str, new_name: str) -> bool:
-        """Check if correction is orthographic (max 3 letter differences)"""
-        # Simple character difference count
-        max_diffs = 3
-        diff_count = 0
+        """
+        Check if correction is orthographic using character similarity ratio.
+        Examples: GONSALES->GONZALEZ (75%), SILVA->SYLVA (80%)
+        Threshold: >70% similarity indicates orthographic variation
+        """
+        from difflib import SequenceMatcher
         
-        # Pad shorter string with spaces for comparison
-        max_len = max(len(old_name), len(new_name))
-        old_padded = old_name.ljust(max_len)
-        new_padded = new_name.ljust(max_len)
+        # Use sequence matching; accept if >70% similar (allows up to ~2-3 char diffs in 8-char name)
+        similarity = SequenceMatcher(None, old_name, new_name).ratio()
         
-        for old_char, new_char in zip(old_padded, new_padded):
-            if old_char != new_char:
-                diff_count += 1
-                if diff_count > max_diffs:
-                    return False
-        
-        return diff_count <= max_diffs
+        # Orthographic corrections typically have high similarity
+        return similarity > 0.70
     
     def _is_inverted_names(self, old_name: str, new_name: str) -> bool:
         """Check if names are simply inverted"""
-        old_parts = old_name.split()
-        new_parts = new_name.split()
+        # Try splitting by space or slash
+        for separator in [' ', '/']:
+            if separator in old_name or separator in new_name:
+                old_parts = old_name.split(separator) if separator in old_name else [old_name]
+                new_parts = new_name.split(separator) if separator in new_name else [new_name]
+                
+                if len(old_parts) == len(new_parts) and len(old_parts) > 1:
+                    # Check if it's just order inversion
+                    if old_parts == new_parts[::-1]:
+                        return True
         
-        if len(old_parts) != len(new_parts):
-            return False
-        
-        # Check if it's just order inversion
-        return old_parts == new_parts[::-1]
+        return False
     
     def _is_addition_correction(self, old_name: str, new_name: str) -> bool:
         """Check if correction is addition without substitution"""
-        old_parts = set(old_name.split())
-        new_parts = set(new_name.split())
+        # Split by both space and slash for compatibility with FIRSTNAME/LASTNAME format
+        old_parts = set(old_name.replace('/', ' ').split())
+        new_parts = set(new_name.replace('/', ' ').split())
         
         # All old parts must be in new name
         return old_parts.issubset(new_parts) and len(new_parts) > len(old_parts)

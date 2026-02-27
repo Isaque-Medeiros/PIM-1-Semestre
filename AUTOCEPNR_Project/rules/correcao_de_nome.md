@@ -95,7 +95,3 @@
 - **Waiver:** Não necessário para 100% LATAM (exceto casos 6 e 7 em CTO/ATO).
 
 ---
-
-## 9. REGRAS PARA REAJUSTE
-
-- *Não pode reajustar classe para voos operados por outra companhias que não sejam LA (Latam airlines Group, Latam Airlines Colombia, Latam airlines Chile, Latam airlines)

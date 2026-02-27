@@ -1,0 +1,8 @@
+# core dependencies
+easyocr>=2.0.1
+pyautogui>=0.9.53    # browser automation fallback
+selenium>=4.0
+opencv-python>=4.7
+
+# packaging
+pyinstaller>=5.10

@@ -1,7 +1,7 @@
 # ESPECIFICAÇÃO DO SISTEMA: LATAM AUTO-FILLER (SABRE INTERACT)
 
 ## 1. Visão Geral
-**Objetivo:** Automatizar o preenchimento de formulários de "Estouro de Classe" a partir de dados visuais do Sabre Interact.
+**Objetivo:** Automatizar o preenchimento de formulários de "Reajuste e estouro de Classe" no CEPNR a partir de dados visuais do Sabre Interact.
 **Metodologia:** Spec-Driven Development (SDD).
 **Target:** Executável Windows standalone (.exe).
 Este documento define o de-para (mapping) dos dados extraídos via OCR/Clipboard do sistema Sabre Interact para os seletores HTML específicos do formulário de Estouro de Classe da Latam.
@@ -37,12 +37,13 @@ Definição dos campos capturados no Sabre e seu destino no HTML:
 - Utilizar OCR para identificar coordenadas de campos fixos.
 - Cruzar dados extraídos com o arquivo de `Regras_PIC_Latam.json`.
 - Também verificar o arquivo de correção de nome `correcao_de_nome.txt`
-- Validar se o "Estouro de Classe" é permitido pela regra X (ex: tarifa paga vs ocupação).
+- Validar se o "Estouro de Classe" é permitido pela regra isso verificando em correcao_de_nome.txt
 
 ### RF003: Injeção de Dados (Output)
 - Identificar a aba ativa do navegador (Chrome/Edge).
 - Preencher campos utilizando seletores CSS ou ID.
 - Simular "Delay Humano" de 200ms entre campos para evitar bloqueios de segurança.
+- Verificar se algum campo do id ficou sem valor e tentar inserir novamente o valor no campo
 
 ## 4. Lógica de Negócio (Business Logic - SDD Object Oriented)
 
@@ -50,7 +51,7 @@ Definição dos campos capturados no Sabre e seu destino no HTML:
 - **Atributos:** RawImage, ExtractedText, Timestamp.
 - **Métodos:** `parse_fields()`, `validate_integrity()`.
 
-### Objeto `LatamForm`
+### Objeto `LatamForm` (CEPNR)
 - **Atributos:** BrowserTabURL, InputFieldsList.
 - **Métodos:** `focus()`, `fill_all()`, `submit_form()`.
 
@@ -63,3 +64,8 @@ Definição dos campos capturados no Sabre e seu destino no HTML:
 ## 6. Mapeamento de Regras (Rules Engine)
 - SE `Class_S_P` no Sabre == 'Y' E `Auth_Code` == 'PIC_S23'
 - ENTÃO permitir preenchimento de `Premium Economy`.
+
+## 7. Como quero o programa
+
+- O programa deve ser semelhante ao modo de execução Psiphon onde é .exe puro com nenhuma probabilidade de um VPN barrar.
+- Deve se reconhecer a guia que o usuário se encontra no momento e dar opções para ele de preencher automaticamente as entradas do LatamForm (CEPNR)

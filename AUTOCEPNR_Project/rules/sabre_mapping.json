@@ -1,0 +1,64 @@
+{
+  "reserva_info": {
+    "pnr": {
+      "sabre_label": "Reserva - ",
+      "form_selector": "input[id='form:txt_pnrCdg']",
+      "regex": "Reserva - ([A-Z0-9]{6})"
+    },
+    "data_criacao": {
+      "sabre_label": "Recebido de - ",
+      "form_selector": null,
+      "info": "Usado para validar janela de correção"
+    }
+  },
+  "passageiro": {
+    "nome_completo": {
+      "sabre_label": "Nomes",
+      "form_selector": "label[id='form:pax_paxID_label']",
+      "transform": "Remover títulos (MS, MR, MSTR)"
+    }
+  },
+  "itinerario_vôo": {
+    "carrier": {
+      "sabre_col": "Voo (CIA)",
+      "form_selector": "label[id='form:carrierEnabled_label']",
+      "exemplo": "LA"
+    },
+    "num_voo": {
+      "sabre_col": "Voo (Numero)",
+      "form_selector": "input[id='form:txt_vuelotNum']",
+      "exemplo": "6375"
+    },
+    "classe": {
+      "sabre_col": "Cls",
+      "form_selector": "label[id='form:classEnabled_label']",
+      "validacao": "Verificar se é Q, S, Y, etc."
+    },
+    "trecho": {
+      "sabre_col": "De-Para",
+      "form_selector": "input[id='form:txt_segment']",
+      "exemplo": "GRU-ATL"
+    },
+    "data_voo": {
+      "sabre_col": "Data",
+      "form_selector": "input[id='form:dateFlight_input']",
+      "transform": "Converter 13MAR para DD/MM/2026"
+    },
+    "status": {
+      "sabre_col": "Stp Nbr",
+      "regra_estouro": "Somente HK ou SA",
+      "form_selector": "input[id='form:txt_segmentNum']"
+    }
+  },
+  "financeiro_tkt": {
+    "num_bilhete": {
+      "sabre_label": "TE",
+      "prefixos_validos": ["957", "045"],
+      "form_selector": "input[id='form:txt_ctoDes']"
+    },
+    "data_emissao": {
+      "sabre_label": "Data emissão bilhete",
+      "posicao": "Ao lado do numero do bilhete"
+    }
+  }
+}

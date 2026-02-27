@@ -1,3 +1,4 @@
+<<<<<<< HEAD:AUTOCEPNR_Project/requirements.txt
 # Latam Auto-Filler Requirements
 # Spec-Driven Development Implementation
 
@@ -28,4 +29,34 @@ pyautogui>=0.9.50
 
 # Development and Testing
 pytest>=7.0.0  # For testing (optional)
+=======
+# Latam Auto-Filler Requirements
+# Spec-Driven Development Implementation
+
+# Core Dependencies
+python>=3.11.0
+
+# OCR and Image Processing
+easyocr>=1.7.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Browser Automation
+playwright>=1.40.0
+
+# UI Components
+tk>=8.6
+
+# System and Utilities
+pyperclip>=1.8.0
+pyautogui>=0.9.50
+
+# Optional: For better performance and additional features
+# torch>=2.0.0  # For EasyOCR GPU support (optional)
+# torchvision>=0.15.0  # For EasyOCR GPU support (optional)
+
+# Development and Testing
+pytest>=7.0.0  # For testing (optional)
+>>>>>>> 7a10112 (FirstlProjectSDDMetodologia):SITE/AUTOCEPNR_Project/requirements.txt
 pytest-asyncio>=0.21.0  # For async testing (optional)

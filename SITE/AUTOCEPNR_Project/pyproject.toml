@@ -1,9 +1,0 @@
-[project]
-name = "autocepnr"
-version = "0.1.0"
-description = "LATAM Auto‑Filler for CEPNR based on Sabre Interact screens."
-authors = [ { name = "Isaque Medeiros" } ]
-
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"

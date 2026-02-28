@@ -69,3 +69,4 @@ Definição dos campos capturados no Sabre e seu destino no HTML:
 
 - O programa deve ser semelhante ao modo de execução Psiphon onde é .exe puro com nenhuma probabilidade de um VPN barrar.
 - Deve se reconhecer a guia que o usuário se encontra no momento e dar opções para ele de preencher automaticamente as entradas do LatamForm (CEPNR)
+- O Usuário deve entrar no chrome e esse programa instalado, quando aberto deve reconhecer que ele está no site `http://cepnr.cloud.aircorp.aero:12060/CEPNR-2.0/private/main/index.jsf` e reconhecer os campos de entrada desse site de formulário.

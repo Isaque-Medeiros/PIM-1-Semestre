@@ -1,7 +1,7 @@
 site_name: Isaque Medeiros - Hub de Projetos
 site_description: Hub central de documentação técnica e projetos profissionais
 site_author: Isaque de Medeiros
-site_url: https://isaque-medeiros.github.io/
+site_url: https://isaque-medeiros.github.io/PIM-1-Semestre/
 
 theme:
   name: material

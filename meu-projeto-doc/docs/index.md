@@ -1,6 +1,5 @@
 ---
 title: Hub de Projetos - Isaque Medeiros
-template: home
 ---
 
 # Hub de Projetos Profissionais

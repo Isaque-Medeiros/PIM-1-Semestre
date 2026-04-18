@@ -102,15 +102,46 @@ nav:
     - Visão Geral: bsfm/index.md
     - Guia do Usuário:
       - Introdução: bsfm/user-guide/introduction.md
+      - Primeiros Passos: bsfm/user-guide/getting-started.md
+      - Análise de Alimentos: bsfm/user-guide/food-analysis.md
+      - Dashboard: bsfm/user-guide/dashboard.md
+      - Metas: bsfm/user-guide/goals.md
     - Guia do Desenvolvedor:
       - Setup: bsfm/developer-guide/setup.md
+      - Arquitetura: bsfm/developer-guide/architecture.md
+      - API Reference: bsfm/developer-guide/api.md
+      - Deployment: bsfm/developer-guide/deployment.md
+    - Tecnologia:
+      - IA e Machine Learning: bsfm/technology/ai-ml.md
+      - Banco de Dados: bsfm/technology/database.md
+      - Frontend: bsfm/technology/frontend.md
+      - Segurança: bsfm/technology/security.md
   - Projetos em Produção:
     - PIM 1º Semestre: projects/pim-first-semester.md
+    - Landing de Portfólio: projects/portfolio-landing.md
+  - Protótipos e Experimentos:
+    - Exercícios de Lógica: projects/logic-exercises.md
+    - Projetos Acadêmicos: projects/academic-projects.md
+  - Stack Tecnológica:
+    - Frontend: stack/frontend.md
+    - Backend: stack/backend.md
+    - Banco de Dados: stack/database.md
+    - DevOps: stack/devops.md
   - Sobre:
     - Perfil Profissional: about/profile.md
+    - Trajetória: about/timeline.md
+    - Habilidades: about/skills.md
+    - Contato: about/contact.md
 
 plugins:
   - search
+  - git-committers:
+      repository: Isaque-Medeiros/OrganizarProjetos
+      branch: main
+  - git-commit:
+      enabled: !ENV [CI, false]
+  - minify:
+      minify_html: true
 
 copyright: |
   &copy; 2026 Isaque de Medeiros. Todos os direitos reservados.

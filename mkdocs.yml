@@ -138,8 +138,6 @@ plugins:
   - git-committers:
       repository: Isaque-Medeiros/OrganizarProjetos
       branch: main
-  - git-commit:
-      enabled: !ENV [CI, false]
   - minify:
       minify_html: true
 

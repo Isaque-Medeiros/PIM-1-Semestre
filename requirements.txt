@@ -2,4 +2,5 @@ mkdocs>=1.6.0
 mkdocs-material>=9.5.0
 mkdocs-minify-plugin>=0.7.0
 mkdocs-git-committers-plugin-2>=2.2.0
-mkdocs-git-commit>=0.1.0
+mkdocs-git-commit>=0.1.0~
+mkdocs-git-committers-plugin-2

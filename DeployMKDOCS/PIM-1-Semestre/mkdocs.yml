@@ -1,0 +1,151 @@
+site_name: Isaque Medeiros - Hub de Projetos
+site_description: Hub central de documentação técnica e projetos profissionais
+site_author: Isaque de Medeiros
+site_url: https://isaque-medeiros.github.io/PIM-1-Semestre/
+use_directory_urls: false
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  palette:
+    # Esquema Escuro Principal (Slate/Zinc - Soft Professional)
+    - scheme: slate
+      primary: slate
+      accent: sky
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    # Esquema Claro (Opcional)
+    - scheme: default
+      primary: zinc
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  font:
+    text: Inter
+    code: Fira Code
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/custom.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Isaque-Medeiros
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/isaque-medeiros-a99421268/
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:medeiroisaque765@gmail.com
+      name: Email
+
+nav:
+  - Home: index.md
+  - BSFM - Brazilian System of Food Metric:
+    - Início BSFM: bsfm/index.md
+    - Guia do Usuário:
+      - Introdução: bsfm/user-guide/introduction.md
+      - Primeiros Passos: bsfm/user-guide/getting-started.md
+      - Análise de Alimentos: bsfm/user-guide/food-analysis.md
+      - Dashboard: bsfm/user-guide/dashboard.md
+      - Metas: bsfm/user-guide/goals.md
+      - FAQ: bsfm/user-guide/faq.md
+    - Guia do Desenvolvedor:
+      - Setup: bsfm/developer-guide/setup.md
+      - Arquitetura: bsfm/developer-guide/architecture.md
+      - API Reference: bsfm/developer-guide/api.md
+      - Deployment: bsfm/developer-guide/deployment.md
+    - Tecnologia:
+      - IA e Machine Learning: bsfm/technology/ai-ml.md
+      - Banco de Dados: bsfm/technology/database.md
+      - Frontend: bsfm/technology/frontend.md
+      - Segurança: bsfm/technology/security.md
+  - Projetos em Produção:
+    - Galeria de Projetos: projects/index.md
+    - PIM 1º Semestre: projects/pim-first-semester.md
+    - Landing de Portfólio: projects/portfolio-landing.md
+  - Protótipos e Experimentos:
+    - Exercícios de Lógica: projects/logic-exercises.md
+    - Projetos Acadêmicos: projects/academic-projects.md
+  - Stack Tecnológica:
+    - Visão Geral: stack/index.md
+    - Frontend: stack/frontend.md
+    - Backend: stack/backend.md
+    - Banco de Dados: stack/database.md
+    - DevOps: stack/devops.md
+  - Sobre:
+    - Visão Geral: about/index.md
+    - Perfil Profissional: about/profile.md
+    - Trajetória: about/timeline.md
+    - Habilidades: about/skills.md
+    - Contato: about/contact.md
+
+plugins:
+  - search
+  - git-committers:
+      repository: Isaque-Medeiros/PIM-1-Semestre
+      branch: main
+  - minify:
+      minify_html: true
+
+copyright: |
+  &copy; 2026 Isaque de Medeiros. Todos os direitos reservados.
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>

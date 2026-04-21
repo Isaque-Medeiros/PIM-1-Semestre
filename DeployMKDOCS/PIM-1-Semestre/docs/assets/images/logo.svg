@@ -1,0 +1,16 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e" />
+      <stop offset="100%" stop-color="#0f3460" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo icon -->
+  <rect x="5" y="5" width="30" height="30" rx="6" fill="url(#logoGradient)" />
+  <text x="20" y="25" text-anchor="middle" fill="#ff7b00" font-family="Arial, sans-serif" font-size="16" font-weight="bold">IS</text>
+  
+  <!-- Logo text -->
+  <text x="45" y="25" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Isaque Santos</text>
+  <text x="45" y="35" fill="#666" font-family="Arial, sans-serif" font-size="12">Developer &amp; Student</text>
+</svg>

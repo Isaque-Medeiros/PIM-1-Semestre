@@ -122,7 +122,7 @@ Acesse pelo computador em [bsfm-app.railway.app](https://bsfm-app.railway.app)
 ## :material-help-circle: Precisa de Ajuda?
 
 ### Recursos de Suporte
-- **FAQ:** [Perguntas Frequentes](/bsfm/user-guide/faq.md)
+- **FAQ:** [Perguntas Frequentes](faq.md)
 - **Tutoriais:** [Vídeos explicativos](https://youtube.com/playlist?list=exemplo)
 - **Contato:** suporte@bsfm.com.br
 - **Comunidade:** [Fórum de discussão](https://github.com/Isaque-Medeiros/BSFM/discussions)
@@ -137,10 +137,10 @@ Acesse pelo computador em [bsfm-app.railway.app](https://bsfm-app.railway.app)
 
 ## :material-arrow-right: Próximos Passos
 
-1. **Leia o guia completo** de [Primeiros Passos](/bsfm/user-guide/getting-started.md)
-2. **Experimente o** [Analisador IA](/bsfm/user-guide/food-analysis.md)
-3. **Configure suas** [Metas Pessoais](/bsfm/user-guide/goals.md)
-4. **Explore o** [Dashboard](/bsfm/user-guide/dashboard.md) em detalhes
+1. **Leia o guia completo** de [Primeiros Passos](getting-started.md)
+2. **Experimente o** [Analisador IA](food-analysis.md)
+3. **Configure suas** [Metas Pessoais](goals.md)
+4. **Explore o** [Dashboard](dashboard.md) em detalhes
 
 ---
 

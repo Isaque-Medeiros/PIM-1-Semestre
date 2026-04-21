@@ -2,6 +2,7 @@ site_name: Isaque Medeiros - Hub de Projetos
 site_description: Hub central de documentação técnica e projetos profissionais
 site_author: Isaque de Medeiros
 site_url: https://isaque-medeiros.github.io/PIM-1-Semestre/
+use_directory_urls: false
 
 theme:
   name: material
@@ -31,7 +32,6 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.footer
-    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
@@ -43,6 +43,7 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - def_list
   - footnotes
   - meta
@@ -99,13 +100,14 @@ extra:
 nav:
   - Home: index.md
   - BSFM - Brazilian System of Food Metric:
-    - Visão Geral: bsfm/index.md
+    - Início BSFM: bsfm/index.md
     - Guia do Usuário:
       - Introdução: bsfm/user-guide/introduction.md
       - Primeiros Passos: bsfm/user-guide/getting-started.md
       - Análise de Alimentos: bsfm/user-guide/food-analysis.md
       - Dashboard: bsfm/user-guide/dashboard.md
       - Metas: bsfm/user-guide/goals.md
+      - FAQ: bsfm/user-guide/faq.md
     - Guia do Desenvolvedor:
       - Setup: bsfm/developer-guide/setup.md
       - Arquitetura: bsfm/developer-guide/architecture.md
@@ -117,17 +119,20 @@ nav:
       - Frontend: bsfm/technology/frontend.md
       - Segurança: bsfm/technology/security.md
   - Projetos em Produção:
+    - Galeria de Projetos: projects/index.md
     - PIM 1º Semestre: projects/pim-first-semester.md
     - Landing de Portfólio: projects/portfolio-landing.md
   - Protótipos e Experimentos:
     - Exercícios de Lógica: projects/logic-exercises.md
     - Projetos Acadêmicos: projects/academic-projects.md
   - Stack Tecnológica:
+    - Visão Geral: stack/index.md
     - Frontend: stack/frontend.md
     - Backend: stack/backend.md
     - Banco de Dados: stack/database.md
     - DevOps: stack/devops.md
   - Sobre:
+    - Visão Geral: about/index.md
     - Perfil Profissional: about/profile.md
     - Trajetória: about/timeline.md
     - Habilidades: about/skills.md
@@ -136,7 +141,7 @@ nav:
 plugins:
   - search
   - git-committers:
-      repository: Isaque-Medeiros/OrganizarProjetos
+      repository: Isaque-Medeiros/PIM-1-Semestre
       branch: main
   - minify:
       minify_html: true

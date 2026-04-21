@@ -1,6 +1,5 @@
 ---
 title: Hub de Projetos - Isaque Medeiros
-template: home
 ---
 
 # Hub de Projetos Profissionais
@@ -13,7 +12,7 @@ template: home
     
     Projetos ativos e em uso, com documentação técnica completa e casos de uso real.
 
-    [:octicons-arrow-right-24: Ver projetos](/projects/)
+    [:octicons-arrow-right-24: Ver projetos](projects/index.md)
 
 -   :material-brain:{ .lg .middle } **BSFM - Brazilian System of Food Metric**
     
@@ -21,7 +20,7 @@ template: home
     
     Plataforma de nutrição inteligente com IA para análise de alimentos e acompanhamento nutricional personalizado.
 
-    [:octicons-arrow-right-24: Documentação BSFM](/bsfm/)
+    [:octicons-arrow-right-24: Documentação BSFM](bsfm/index.md)
 
 -   :material-code-braces:{ .lg .middle } **Stack Tecnológica**
     
@@ -29,7 +28,7 @@ template: home
     
     Tecnologias, ferramentas e metodologias utilizadas no desenvolvimento de projetos.
 
-    [:octicons-arrow-right-24: Ver stack](/stack/)
+    [:octicons-arrow-right-24: Ver stack](stack/index.md)
 
 -   :material-account-circle:{ .lg .middle } **Perfil Profissional**
     
@@ -37,7 +36,7 @@ template: home
     
     Trajetória, habilidades técnicas e informações de contato para oportunidades profissionais.
 
-    [:octicons-arrow-right-24: Sobre mim](/about/)
+    [:octicons-arrow-right-24: Sobre mim](about/index.md)
 
 </div>
 
@@ -50,7 +49,7 @@ template: home
 **Stack:** .NET 8.0, PostgreSQL, YOLO AI, Tailwind CSS  
 **Descrição:** Plataforma completa de análise nutricional com detecção de alimentos por IA, dashboard personalizado e sistema de metas.
 
-[:material-arrow-right: Acessar documentação completa](/bsfm/){ .md-button .md-button--primary }
+[:material-arrow-right: Acessar documentação completa](bsfm/index.md){ .md-button .md-button--primary }
 
 ### PIM - 1º Semestre
 **Status:** :material-check-circle:{ style="color: #10b981" } Publicado  
@@ -64,7 +63,7 @@ template: home
 **Stack:** HTML semântico, CSS moderno, JavaScript  
 **Descrição:** Página pessoal profissional com apresentação de trajetória, habilidades e projetos.
 
-[:material-eye: Visualizar site](/){ .md-button }
+[:material-eye: Visualizar site](index.md){ .md-button }
 
 ---
 
@@ -100,10 +99,10 @@ template: home
 
 ## :material-help-circle-outline: Como Navegar
 
-1.  **Para desenvolvedores:** Acesse a [documentação técnica do BSFM](/bsfm/developer-guide/) para setup, arquitetura e API reference.
-2.  **Para recrutadores:** Veja o [perfil profissional](/about/) para trajetória, habilidades e informações de contato.
-3.  **Para colaboradores:** Explore os [projetos públicos](/projects/) e stack tecnológica utilizada.
-4.  **Para estudantes:** Consulte os [projetos acadêmicos](/projects/academic-projects.md) como referência de aprendizado.
+1.  **Para desenvolvedores:** Acesse a [documentação técnica do BSFM](bsfm/developer-guide/setup.md) para setup, arquitetura e API reference.
+2.  **Para recrutadores:** Veja o [perfil profissional](about/index.md) para trajetória, habilidades e informações de contato.
+3.  **Para colaboradores:** Explore os [projetos públicos](projects/index.md) e stack tecnológica utilizada.
+4.  **Para estudantes:** Consulte os [projetos acadêmicos](projects/academic-projects.md) como referência de aprendizado.
 
 ---
 
@@ -123,7 +122,7 @@ template: home
     ---
     Contato direto para propostas, dúvidas ou colaborações.
 
--   [:material-file-document: Portfólio](/)
+-   [:material-file-document: Portfólio](index.md)
     ---
     Site pessoal com apresentação completa e projetos em destaque.
 
@@ -141,7 +140,7 @@ O **Brazilian System of Food Metric** é a principal iniciativa técnica em dese
 - **Arquitetura moderna:** .NET 8.0, PostgreSQL, Entity Framework Core, Tailwind CSS
 - **Impacto social:** Democratização do acesso à análise nutricional de qualidade no Brasil
 
-[:material-arrow-right: Explorar BSFM em detalhes](/bsfm/){ .md-button .md-button--primary }
+[:material-arrow-right: Explorar BSFM em detalhes](bsfm/index.md){ .md-button .md-button--primary }
 
 </div>
 

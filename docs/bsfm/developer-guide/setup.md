@@ -345,9 +345,9 @@ ENTRYPOINT ["dotnet", "MeusApp.dll"]
 
 ## :material-book: Próximos Passos
 
-1. **Explore a Arquitetura:** [Arquitetura do Sistema](/bsfm/developer-guide/architecture.md)
-2. **Conheça a API:** [API Reference](/bsfm/developer-guide/api.md)
-3. **Aprenda sobre Deployment:** [Deploy em Produção](/bsfm/developer-guide/deployment.md)
+1. **Explore a Arquitetura:** [Arquitetura do Sistema](architecture.md)
+2. **Conheça a API:** [API Reference](api.md)
+3. **Aprenda sobre Deployment:** [Deploy em Produção](deployment.md)
 4. **Contribua:** [Guidelines de Contribuição](https://github.com/Isaque-Medeiros/BSFM/blob/main/CONTRIBUTING.md)
 
 ## :material-help-circle: Suporte

@@ -21,7 +21,7 @@ description: Plataforma completa de nutrição inteligente com IA para análise 
     
     Comece a usar o BSFM com nosso guia completo de introdução e configuração inicial.
 
-    [:octicons-arrow-right-24: Guia do Usuário](/bsfm/user-guide/)
+    [:octicons-arrow-right-24: Guia do Usuário](user-guide/introduction.md)
 
 -   :material-code-braces:{ .lg .middle } **Desenvolvimento**
     
@@ -29,7 +29,7 @@ description: Plataforma completa de nutrição inteligente com IA para análise 
     
     Documentação técnica completa para desenvolvedores, incluindo arquitetura, API e deployment.
 
-    [:octicons-arrow-right-24: Guia do Desenvolvedor](/bsfm/developer-guide/)
+    [:octicons-arrow-right-24: Guia do Desenvolvedor](developer-guide/setup.md)
 
 -   :material-shield-check:{ .lg .middle } **Tecnologia**
     
@@ -37,7 +37,7 @@ description: Plataforma completa de nutrição inteligente com IA para análise 
     
     Stack tecnológico, IA, banco de dados e segurança implementados na plataforma.
 
-    [:octicons-arrow-right-24: Tecnologias](/bsfm/technology/)
+    [:octicons-arrow-right-24: Tecnologias](technology/ai-ml.md)
 
 </div>
 
@@ -147,7 +147,7 @@ Utilizar inteligência artificial para fornecer análises nutricionais precisas,
     
     Aprenda a usar todas as funcionalidades da plataforma para melhorar sua saúde alimentar.
     
-    [:octicons-arrow-right-24: Guia do Usuário](/bsfm/user-guide/)
+    [:octicons-arrow-right-24: Guia do Usuário](user-guide/introduction.md)
 
 - **Desenvolvedores**
     
@@ -155,7 +155,7 @@ Utilizar inteligência artificial para fornecer análises nutricionais precisas,
     
     Implemente, estenda ou integre o BSFM em seus projetos com nossa documentação técnica completa.
     
-    [:octicons-arrow-right-24: Guia do Desenvolvedor](/bsfm/developer-guide/)
+    [:octicons-arrow-right-24: Guia do Desenvolvedor](developer-guide/setup.md)
 
 - **Profissionais de Saúde**
     
@@ -163,7 +163,7 @@ Utilizar inteligência artificial para fornecer análises nutricionais precisas,
     
     Utilize o BSFM como ferramenta de apoio em consultas e acompanhamento de pacientes.
     
-    [:octicons-arrow-right-24: Casos de Uso](/bsfm/user-guide/cases/)
+    [:octicons-arrow-right-24: Casos de Uso](user-guide/food-analysis.md)
 
 - **Parceiros**
     
@@ -171,7 +171,7 @@ Utilizar inteligência artificial para fornecer análises nutricionais precisas,
     
     Integre o BSFM em sua instituição ou produto através de nossa API pública.
     
-    [:octicons-arrow-right-24: API Reference](/bsfm/developer-guide/api/)
+    [:octicons-arrow-right-24: API Reference](developer-guide/api.md)
 
 </div>
 
@@ -217,7 +217,7 @@ Utilizar inteligência artificial para fornecer análises nutricionais precisas,
     
     Clone o repositório e configure o ambiente de desenvolvimento local.
     
-    [:material-code-braces: Setup Local](/bsfm/developer-guide/setup.md){ .md-button }
+    [:material-code-braces: Setup Local](developer-guide/setup.md){ .md-button }
 
 -   **Para Contribuidores**
     

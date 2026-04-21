@@ -264,7 +264,7 @@ timeline
     
     Contato direto para propostas, dúvidas técnicas ou conversas informais.
 
--   [:material-file-document: Portfólio](/)
+-   [:material-file-document: Portfólio](../index.md)
     
     ---
     

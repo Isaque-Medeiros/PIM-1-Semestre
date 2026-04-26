@@ -2,15 +2,15 @@
 title: Hub de Projetos - Isaque Medeiros
 ---
 
-# Hub de Projetos Profissionais
+# Hub de Projetos
 
 <div class="grid cards" markdown>
 
--   :material-briefcase-outline:{ .lg .middle } **Projetos em Produção**
+-   :material-briefcase-outline:{ .lg .middle } **Projetos**
     
     ---
     
-    Projetos ativos e em uso, com documentação técnica completa e casos de uso real.
+    Projetos acadêmicos e pessoais com documentação técnica.
 
     [:octicons-arrow-right-24: Ver projetos](projects/index.md)
 
@@ -26,15 +26,15 @@ title: Hub de Projetos - Isaque Medeiros
     
     ---
     
-    Tecnologias, ferramentas e metodologias utilizadas no desenvolvimento de projetos.
+    Tecnologias e ferramentas que estou estudando e utilizando em projetos.
 
     [:octicons-arrow-right-24: Ver stack](stack/index.md)
 
--   :material-account-circle:{ .lg .middle } **Perfil Profissional**
+-   :material-account-circle:{ .lg .middle } **Perfil**
     
     ---
     
-    Trajetória, habilidades técnicas e informações de contato para oportunidades profissionais.
+    Trajetória acadêmica, habilidades em desenvolvimento e informações de contato.
 
     [:octicons-arrow-right-24: Sobre mim](about/index.md)
 
@@ -45,9 +45,9 @@ title: Hub de Projetos - Isaque Medeiros
 ## :material-rocket-launch: Projetos em Destaque
 
 ### BSFM - Brazilian System of Food Metric
-**Status:** :material-check-circle:{ style="color: #10b981" } Em produção  
+**Status:** :material-check-circle:{ style="color: #10b981" } Em desenvolvimento  
 **Stack:** .NET 8.0, PostgreSQL, YOLO AI, Tailwind CSS  
-**Descrição:** Plataforma completa de análise nutricional com detecção de alimentos por IA, dashboard personalizado e sistema de metas.
+**Descrição:** Plataforma de análise nutricional com detecção de alimentos por IA, dashboard personalizado e sistema de metas.
 
 [:material-arrow-right: Acessar documentação completa](bsfm/index.md){ .md-button .md-button--primary }
 
@@ -67,7 +67,7 @@ title: Hub de Projetos - Isaque Medeiros
 
 ---
 
-## :material-chart-line: Métricas e Estatísticas
+## :material-chart-line: Métricas
 
 <div class="grid" markdown>
 
@@ -75,8 +75,7 @@ title: Hub de Projetos - Isaque Medeiros
 | :--- | :--- | :--- |
 | **Projetos Publicados** | 3 | :material-check-circle:{ style="color: #10b981" } Ativos |
 | **Documentação Técnica** | 15+ páginas | :material-progress-check:{ style="color: #3b82f6" } Em expansão |
-| **Tecnologias Dominadas** | 7+ linguagens | :material-trending-up:{ style="color: #8b5cf6" } Em crescimento |
-| **Anos de Experiência** | 3+ anos | :material-calendar:{ style="color: #ef4444" } Desde 2021 |
+| **Linguagens Estudadas** | 5+ | :material-trending-up:{ style="color: #8b5cf6" } Em aprendizado |
 
 </div>
 
@@ -112,19 +111,15 @@ title: Hub de Projetos - Isaque Medeiros
 
 -   [:material-github: GitHub](https://github.com/Isaque-Medeiros)
     ---
-    Repositórios públicos, projetos open source e contribuições técnicas.
+    Repositórios públicos e projetos acadêmicos.
 
 -   [:material-linkedin: LinkedIn](https://www.linkedin.com/in/isaque-medeiros-a99421268/)
     ---
-    Perfil profissional, experiência e conexões na área de tecnologia.
+    Perfil profissional e conexões na área de tecnologia.
 
 -   [:material-email: Email](mailto:medeiroisaque765@gmail.com)
     ---
     Contato direto para propostas, dúvidas ou colaborações.
-
--   [:material-file-document: Portfólio](index.md)
-    ---
-    Site pessoal com apresentação completa e projetos em destaque.
 
 </div>
 
@@ -132,12 +127,12 @@ title: Hub de Projetos - Isaque Medeiros
 
 <div class="bsfm-feature" markdown>
 
-## :material-star: Destaque do Mês - BSFM
+## :material-star: Destaque - BSFM
 
 O **Brazilian System of Food Metric** é a principal iniciativa técnica em desenvolvimento, combinando:
 
-- **IA para nutrição:** Detecção de 452 alimentos com YOLO + análise nutricional via USDA API
-- **Arquitetura moderna:** .NET 8.0, PostgreSQL, Entity Framework Core, Tailwind CSS
+- **IA para nutrição:** Detecção de alimentos com YOLO + análise nutricional via USDA API
+- **Arquitetura:** .NET 8.0, PostgreSQL, Entity Framework Core, Tailwind CSS
 - **Impacto social:** Democratização do acesso à análise nutricional de qualidade no Brasil
 
 [:material-arrow-right: Explorar BSFM em detalhes](bsfm/index.md){ .md-button .md-button--primary }

@@ -7,7 +7,7 @@ description: Coleção de exercícios de programação e algoritmos desenvolvido
 
 ## Visão Geral
 
-Esta seção contém diversos exercícios de lógica de programação desenvolvidos durante meus estudos na UNIP e programas da DIO. Os exercícios abrangem desde conceitos básicos até algoritmos mais complexos.
+Esta seção contém diversos exercícios de lógica de programação desenvolvidos durante meus estudos na ETEC, UNIP e programas da DIO. Os exercícios abrangem desde conceitos básicos até algoritmos mais complexos.
 
 ## Categorias de Exercícios
 

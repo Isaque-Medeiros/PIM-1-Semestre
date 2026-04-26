@@ -1,184 +1,95 @@
 ---
 title: Linha do Tempo
-description: Minha jornada profissional e acadêmica em desenvolvimento de software
+description: Minha jornada de aprendizado em tecnologia
 ---
 
-# Linha do Tempo Profissional
+# Linha do Tempo
 
-## 2026 - Atual
-
-### 🚀 Desenvolvimento Contínuo
-- **Foco**: Especialização em Cloud Computing e AI
-- **Projetos**: Sistemas escaláveis e aplicações inteligentes
-- **Tecnologias**: AWS, Azure, Machine Learning, IoT
-
-### 📚 Aprimoramento Técnico
-- Cursos avançados em arquitetura de software
-- Certificações em cloud providers
-- Desenvolvimento de projetos open source
-
-## 2025 - Ano de Consolidação
+## 2025 - Atual
 
 ### 🎓 Graduação em ADS
-- **Instituição**: UNIP - Universidade Paulista
-- **Curso**: Análise e Desenvolvimento de Sistemas
-- **Status**: Cursando - Previsão de conclusão em 2026
+- **Instituição:** UNIP - Universidade Paulista
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Período:** 2025 - 2026 (em andamento)
+- **Foco:** Algoritmos, programação, desenvolvimento web
 
-### 💻 Programa DIO
-- **Microsoft Azure**: Cloud computing e infraestrutura
-- **IA e Machine Learning**: Fundamentos e aplicações
-- **Desenvolvimento Fullstack**: Projetos completos
+### 💻 Bootcamps e Cursos
+- **BootCamp Santander** - Ciência de Dados com Python
+- **BootCamp Bradesco** - Gen & IA
+- **Microsoft Azure** - Curso avançado (conceitos de cloud)
+- **Node.js** - Em andamento
 
-### 🏆 Projetos Acadêmicos
-- **SysAcad**: Sistema de gestão acadêmica em C++
-- **Assistente Virtual IA**: Projeto final DIO
-- **Circuitos Eletrônicos**: Projetos no Tinkercad
-- **Projetos Cloud**: Deploy na Azure e AWS
+### 🏆 Projetos
+- **BSFM**: Plataforma de nutrição com IA (em desenvolvimento)
+- **PIM 1º Semestre**: Projeto acadêmico integrador
+- **Portfólio Pessoal**: Documentação e projetos
 
-## 2024 - Início da Jornada
+## 2024 - Primeiros Passos em Programação
 
-### 🔧 Primeiros Passos em Programação
-- **Linguagens**: Python, JavaScript, C++
-- **Conceitos**: Algoritmos, estruturas de dados
+### 🔧 Aprendizado
+- **Python**: Primeiro contato com programação
+- **JavaScript**: Estudos iniciais
+- **Lógica de Programação**: Algoritmos e estruturas básicas
+
+### 🌐 Bootcamps
+- **BootCamp Santander**: Ciência de Dados com Python
 - **Projetos**: Exercícios de lógica e pequenos sistemas
 
-### 🌐 Desenvolvimento Web
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Python Flask
-- **Banco de Dados**: SQLite, MongoDB
+## 2023 - ETEC
 
-### 📋 Metodologias
-- **Versionamento**: Git e GitHub
-- **Documentação**: READMEs e documentação técnica
-- **Organização**: Trello, Notion
+### 📚 Formação Técnica
+- **Curso**: Técnico em Manutenção e Suporte em Informática
+- **Instituição**: ETEC
+- **Período**: 2023-2024
+- **Conteúdo**: Hardware, redes, sistemas operacionais, suporte técnico
+- **Primeiros contatos**: C++ e Python
 
-## Marcos Importantes
+## 2019-2021 - Design Gráfico
 
-### Certificações e Conquistas
+### 🎨 SAGA
+- **Curso**: School of Art, Game and Animation
+- **Foco**: Design gráfico, Photoshop, Illustrator
+- **Contribuição**: Base para noções de UI/UX
 
-#### 2025
-- **Microsoft Azure Fundamentals** - DIO
-- **AI Assistant Development** - DIO
-- **Cloud Computing Essentials** - DIO
-- **Fullstack Development** - DIO
+## 2018 - Primeiros Contatos
 
-#### 2024  
-- **Python Programming** - UNIP
-- **Web Development Basics** - Autodidata
-- **Electronics Fundamentals** - Tinkercad
+### 🎮 Início
+- **Lua**: Primeiro contato com lógica de programação no Roblox
 
-### Projetos Destacados
+---
 
-#### 🥇 SysAcad Management System
-- **Período**: 2025.2
-- **Tecnologia**: C++, Arquivos texto
-- **Destaque**: Sistema completo de gestão acadêmica
+## Projetos
 
-#### 🥈 Intelligent Assistant
-- **Período**: 2025.3  
-- **Tecnologia**: Python, AI, Web Interface
-- **Destaque**: Assistente virtual com processamento de linguagem natural
+### BSFM - Brazilian System of Food Metric
+- **Período**: 2025 - presente
+- **Tecnologia**: .NET 8.0, PostgreSQL, YOLO AI
+- **Status**: Em desenvolvimento
 
-#### 🥉 Cloud Deployment Projects
-- **Período**: 2025.4
-- **Tecnologia**: Azure, AWS, Docker
-- **Destaque**: Deploy de aplicações em cloud providers
+### PIM 1º Semestre
+- **Período**: 2025
+- **Tecnologia**: Python, JSON, Interface Web
+- **Status**: Concluído
 
-## Roadmap Futuro
+### Portfólio Pessoal
+- **Período**: 2025 - presente
+- **Tecnologia**: HTML5, CSS3, JavaScript, MkDocs
+- **Status**: Em evolução
 
-### 2026 - Especialização
-- **Cloud Architecture**: AWS Solutions Architect
-- **Machine Learning**: TensorFlow, PyTorch
-- **DevOps**: CI/CD, Kubernetes, Docker
-- **IoT**: Internet das Coisas aplicada
-
-### 2027 - Profissionalização  
-- **Experiência Profissional**: Primeiro emprego na área
-- **Certificações Avançadas**: AWS/Azure professional
-- **Projetos Complexos**: Sistemas em produção
-- **Contribuição Open Source**: Projetos comunidade
-
-### Habilidades em Desenvolvimento
-
-#### Técnicas
-- **Linguagens**: Go, Rust, TypeScript
-- **Frameworks**: React, Vue, Django, Spring
-- **Cloud**: Multi-cloud strategies
-- **Database**: PostgreSQL, Redis, Elasticsearch
-
-#### Soft Skills
-- **Comunicação**: Apresentações técnicas
-- **Liderança**: Gestão de projetos
-- **Mentoria**: Ajuda a iniciantes
-- **Networking**: Comunidade tech
-
-## Estatísticas de Progresso
-
-### Código Produzido
-```python
-# Linhas de código por linguagem (estimativa)
-stats = {
-    "Python": 15000,
-    "JavaScript": 8000, 
-    "C++": 5000,
-    "HTML/CSS": 3000,
-    "Other": 2000
-}
-
-# Projetos concluídos
-projetos = {
-    "Completos": 15,
-    "Em andamento": 8,
-    "Planejados": 12
-}
-```
-
-### Metas para 2026
-- ✅ 10.000+ linhas de Python
-- ✅ 5.000+ linhas de JavaScript  
-- ✅ 3 projetos cloud em produção
-- ⬜ Certificação AWS Cloud Practitioner
-- ⬜ Primeiro contribuição open source
-- ⬜ Projeto IoT completo
-
-## Reflexões e Aprendizados
-
-### Lições Importantes
-1. **Consistência > Intensidade**: Pequenos progressos diários
-2. **Documentação é crucial**: Para você e outros desenvolvedores
-3. **Comunidade ajuda**: Não tenha medo de pedir ajuda
-4. **Projetos reais > Tutorial**: Aprendizado prático é mais eficaz
-
-### Desafios Superados
-- **Curva de aprendizado inicial**: Programação parece complexa no início
-- **Gestão de tempo**: Equilibrar estudos, projetos e vida pessoal
-- **Impostor syndrome**: Todo desenvolvedor passa por isso
-- **Tecnologias em constante mudança**: Aprendizado contínuo necessário
+---
 
 ## Próximos Passos
 
-### Imediatos (1-3 meses)
-- [ ] Completar certificação Azure Fundamentals
-- [ ] Finalizar 2 projetos cloud
-- [ ] Contribuir para 1 projeto open source
-- [ ] Aprender básico de Kubernetes
+### Curto Prazo (2026)
+- [ ] Concluir graduação em ADS
+- [ ] Conseguir estágio na área
+- [ ] Aprofundar em JavaScript e Node.js
+- [ ] Finalizar projetos em andamento
 
-### Médio Prazo (3-12 meses)
-- [ ] AWS Solutions Architect Associate
-- [ ] Projeto machine learning completo
-- [ ] Estágio/emprego na área
-- [ ] Dominar TypeScript e React
-
-### Longo Prazo (1-2 anos)
-- [ ] Sênior em cloud architecture
-- [ ] Especialista em AI/ML
-- [ ] Tech lead em projetos
-- [ ] Mentoria para novos devs
+### Médio Prazo (2027)
+- [ ] Primeira experiência profissional
+- [ ] Certificações em cloud
+- [ ] Contribuição open source
 
 ---
 
 *Última atualização: Abril 2026*
-
-📊 **Progresso atual**: 65% do roadmap concluído
-🎯 **Próximo marco**: Certificação Cloud Practitioner
-🚀 **Meta principal**: Desenvolvedor Cloud Fullstack

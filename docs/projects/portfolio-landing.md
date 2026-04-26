@@ -50,9 +50,9 @@ Meus-ProjetosAcad/
 - Links para repositórios e demonstrações
 
 ### Navegação por Categorias
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Python, Node.js, APIs
-- **Cloud**: AWS, Azure, Deployments
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, APIs
+- **Cloud**: Azure, Deployments
 - **Embedded**: Arduino, Tinkercad, Circuitos
 - **Academic**: Trabalhos universitários
 

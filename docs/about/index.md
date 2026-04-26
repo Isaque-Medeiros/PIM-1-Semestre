@@ -5,178 +5,124 @@ description: Informações profissionais, trajetória e habilidades
 
 # 👨‍💻 Sobre Isaque Medeiros
 
-Desenvolvedor Full Stack apaixonado por tecnologia, com foco em criar soluções inovadoras que resolvam problemas reais através de código bem estruturado e documentado.
+Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e em constante aprendizado. Busco minha primeira oportunidade na área de tecnologia para aplicar e expandir meus conhecimentos.
 
-## 🎯 Perfil Profissional
+## 🎯 Perfil
 
-Desenvolvedor com experiência em múltiplas áreas da tecnologia, desde frontend e backend até cloud computing e sistemas embarcados. Apaixonado por aprender novas tecnologias e aplicar conhecimentos em projetos práticos que fazem a diferença.
+Estudante com formação técnica em Manutenção e Suporte em Informática (ETEC) e atualmente cursando ensino superior na área de tecnologia. Tenho me dedicado ao aprendizado de programação, desenvolvimento web e cloud computing através de cursos, bootcamps e projetos práticos.
 
-**Áreas de Atuação:**
-- **Full Stack Development** - Interfaces web e APIs RESTful
-- **Cloud Computing** - Microsoft Azure e AWS  
-- **Automação & Scripting** - Python para eficiência operacional
-- **Sistemas Embarcados** - Programação de microcontroladores
-- **Análise de Dados** - Processamento e visualização de informações
+**Áreas de Estudo:**
+- **Desenvolvimento Web** - HTML, CSS, JavaScript
+- **Programação** - Python, lógica de programação
+- **Cloud Computing** - Microsoft Azure (conceitos iniciais)
+- **Infraestrutura** - Suporte técnico, hardware e redes
 
 ## 🚀 Trajetória
 
 ### **Formação Acadêmica**
-- **Análise e Desenvolvimento de Sistemas** - UNIP (2026 - Atual)
-  - Projeto Integrado Multidisciplinar (PIM) com nota máxima
-  - Desenvolvimento de sistemas completos em Python
-  - Estudos em algoritmos, estrutura de dados e arquitetura de software
+- **Análise e Desenvolvimento de Sistemas** - UNIP (2025 - Atual)
+  - Projeto Integrado Multidisciplinar (PIM) em desenvolvimento
+  - Estudos em algoritmos, estrutura de dados e programação
 
-### **Experiência Prática**
-- **Projetos Acadêmicos** - Desenvolvimento de sistemas para ONGs e gestão acadêmica
-- **Cloud Computing** - Implementação de soluções em Microsoft Azure através de bootcamps da DIO
-- **Frontend Development** - Criação de interfaces responsivas e modernas
-- **Open Source** - Organização e documentação de repositórios públicos
+- **Técnico em Manutenção e Suporte em Informática** - ETEC (2023-2024)
+  - Fundamentos de hardware e infraestrutura
+  - Sistemas operacionais e redes
+  - Suporte técnico e troubleshooting
 
-### **Certificações & Cursos**
-- **Microsoft Azure Fundamentals** - Cloud computing concepts
-- **Python for Data Science** - Análise e processamento de dados  
-- **Web Development Fundamentals** - HTML, CSS, JavaScript
-- **Git & GitHub** - Controle de versão e colaboração
+### **Cursos & Bootcamps**
+- **BootCamp Santander** - Ciência de Dados com Python
+- **BootCamp Bradesco** - Gen & IA (Inteligência Artificial)
+- **Microsoft Azure** - Curso avançado abordando noções de integração de API, gerenciamento de AKS, Functions, WebServices e banco de dados
+- **SAGA - School of Art, Game and Animation** (2019-2021) - Design Gráfico
 
 ## 💼 Habilidades Técnicas
 
 ### **Linguagens de Programação**
 ```
-Python        ██████████ 90%   # Backend, Automação, Data Science
-JavaScript    ████████░░ 80%   # Frontend, Interatividade Web  
-HTML/CSS      ██████████ 95%   # Interfaces Responsivas
-C/C++         ████░░░░░░ 40%   # Embarcados, Sistemas Acadêmicos
-SQL           ███████░░░ 70%   # Bancos de Dados Relacionais
+Python        ██████░░░░ 60%   # Primeiro contato em 2024 (ETEC)
+JavaScript    ████░░░░░░ 40%   # Estudos autônomos e acadêmicos
+HTML/CSS      ██████░░░░ 60%   # Estruturação e estilização web
+C++           ██░░░░░░░░ 20%   # Primeiro contato na ETEC (2023)
+SQL           ████░░░░░░ 40%   # Consultas básicas em bancos relacionais
 ```
 
-### **Frameworks & Tecnologias**
-- **Frontend:** Material Design, Responsive Web Design
-- **Backend:** Flask, REST APIs, JSON processing  
-- **Database:** PostgreSQL, SQLite, SQLAlchemy ORM
-- **Cloud:** Microsoft Azure, AWS Fundamentals
-- **Tools:** Git, GitHub, VS Code, Docker
-- **Embarcados:** Arduino, Tinkercad, Circuit Design
+### **Ferramentas & Tecnologias**
+- **Frontend:** HTML5, CSS3, JavaScript básico
+- **Backend:** Python (iniciante), Flask (estudando)
+- **Database:** SQLite, noções de PostgreSQL e MySQL
+- **Cloud:** Microsoft Azure (conceitos adquiridos em curso), AWS (conhecimento teórico)
+- **Versionamento:** Git e GitHub
+- **Ferramentas:** VS Code, Figma (noções de design)
 
 ### **Metodologias & Práticas**
-- **Desenvolvimento Ágil** - Organização de projetos e tasks
-- **Clean Code** - Código legível e bem documentado  
-- **Version Control** - Git flow e conventional commits
-- **Documentação** - READMEs completos e guias técnicos
-- **Testing** - Testes unitários e qualidade de código
+- **Versionamento** - Git flow básico e commits
+- **Documentação** - READMEs e documentação técnica
+- **Organização** - Trello, Notion
 
-## 🎓 Educação Continuada
+## 🎓 Em Andamento
 
-### **Em Andamento**
-- **React.js & Node.js** - Modern web development stack
-- **Machine Learning** - Fundamentos de IA e data science
-- **Microservices Architecture** - Sistemas distribuídos escaláveis
-- **AWS Certified Cloud Practitioner** - Cloud fundamentals
+### **Cursando Atualmente**
+- **Node.js** - Previsão de término em 1 mês
+- **React.js** - Estudos iniciais
+- **Análise e Desenvolvimento de Sistemas** - UNIP (2025-2026)
 
 ### **Interesses de Estudo**
+- **Desenvolvimento Full Stack** - Frontend e backend
+- **Cloud Computing** - Aprofundamento em Azure e AWS
 - **DevOps & CI/CD** - Automação de deployment
-- **Serverless Computing** - Arquitetura sem servidor
-- **IoT Development** - Internet das Coisas aplicada
-- **UX/UI Design** - Experiência do usuário e interfaces
+- **Machine Learning** - Fundamentos de IA
 
-## 🌟 Projetos em Destaque
+## 🌟 Projetos
 
 ### **PIM 1º Semestre**
-Sistema completo para organização não-governamental desenvolvido como projeto acadêmico integrador.
+Sistema para organização não-governamental desenvolvido como projeto acadêmico integrador.
 
-**Tecnologias:** Python, Flask, PostgreSQL, Frontend Responsivo
-**Resultados:** Sistema funcional com documentação completa
+**Tecnologias:** Python, JSON, Interface Web
+**Status:** Concluído
 
 ### **BSFM - Brazilian System of Food Metric**  
-Sistema de análise nutricional com IA integrada para acompanhamento de metas alimentares.
+Sistema de análise nutricional com IA para acompanhamento de metas alimentares.
 
-**Tecnologias:** Python, Machine Learning, APIs REST, Cloud Deployment
-**Status:** Em desenvolvimento ativo
+**Tecnologias:** .NET 8.0, PostgreSQL, YOLO AI
+**Status:** Em desenvolvimento
 
-### **Portfólio Interativo**
-Website pessoal com galeria de projetos e documentação técnica organizada.
+### **Portfólio Pessoal**
+Website pessoal com documentação técnica e projetos.
 
 **Tecnologias:** HTML5, CSS3, JavaScript, MkDocs
-**Recursos:** Responsivo, Moderno, Bem documentado
+**Status:** Em evolução contínua
 
-## 📊 Estatísticas de Desenvolvimento
-
-### **Repositórios Públicos**
-- **15+ Projetos** organizados categoricamente
-- **100% Documentados** com READMEs completos
-- **Código Aberto** disponível para comunidade
-- **Atualizações Constantes** com novas features
-
-### **Tecnologias Utilizadas**
-```
-Frontend       ██████████ 20%  # HTML, CSS, JavaScript
-Backend        ██████████ 35%  # Python, APIs, Automação  
-Cloud          █████░░░░░ 15%  # Azure, AWS, Deployment
-Embarcados     ████░░░░░░ 10%  # Arduino, Circuitos
-Ferramentas    ████████░░ 20%  # Git, VS Code, Docker
-```
-
-## 🎯 Objetivos Profissionais
+## 🎯 Objetivos
 
 ### **Curto Prazo (2026)**
-1. **Consolidar conhecimentos** em desenvolvimento full stack
-2. **Contribuir para projetos open source** relevantes
-3. **Desenvolver portfolio técnico** com projetos desafiadores
-4. **Networking ativo** com comunidade de desenvolvedores
+1. **Concluir a graduação** em Análise e Desenvolvimento de Sistemas
+2. **Conseguir estágio** na área de tecnologia
+3. **Aprofundar conhecimentos** em JavaScript e Node.js
+4. **Desenvolver portfolio técnico** com projetos práticos
 
-### **Médio Prazo (2027)**  
-1. **Especialização em Cloud Computing** - Azure/AWS certifications
-2. **Domínio de React.js/Node.js** - Modern web development
-3. **Experiência profissional** em empresa de tecnologia
-4. **Mentoria para iniciantes** - Compartilhamento de conhecimento
+### **Médio Prazo (2027)**
+1. **Primeira experiência profissional** em desenvolvimento
+2. **Certificações** em cloud computing
+3. **Contribuir para projetos open source**
 
 ### **Longo Prazo (2028+)**
-1. **Arquitetura de Software** - Design de sistemas complexos
-2. **Liderança Técnica** - Gestão de equipes de desenvolvimento  
-3. **Empreendedorismo Tecnológico** - Soluções inovadoras
-4. **Impacto Social** - Tecnologia para causas relevantes
+1. **Especialização** em desenvolvimento full stack ou cloud
+2. **Liderança técnica** em projetos
+3. **Impacto social** através da tecnologia
 
-## 🤝 Colaboração & Contato
-
-### **Como Posso Ajudar?**
-- **Desenvolvimento de Projetos** - Full stack solutions
-- **Automação de Processos** - Scripts Python personalizados
-- **Consultoria Técnica** - Arquitetura e best practices
-- **Documentação** - READMEs, guias técnicos, tutoriais
-
-### **Estou Disponível Para**
-- **Projetos Acadêmicos** - Parcerias em trabalhos universitários
-- **Startups & Ideas** - Prototipagem e MVP development  
-- **Open Source** - Contribuições para projetos comunitários
-- **Networking** - Troca de experiências e conhecimentos
-
-### **Preferências de Trabalho**
-- **Remoto** - Flexibilidade geográfica
-- **Projetos Desafiadores** - Que exijam aprendizado contínuo
-- **Cultura Colaborativa** - Ambiente de crescimento mútuo
-- **Propósito** - Trabalhos com impacto positivo
-
-## 📞 Contato & Links
+## 🤝 Contato
 
 ### **Redes Profissionais**
 - [:material-github: GitHub](https://github.com/Isaque-Medeiros) - Portfólio de projetos
-- [:material-linkedin: LinkedIn](https://linkedin.com/in/isaque-medeiros) - Perfil profissional  
+- [:material-linkedin: LinkedIn](https://linkedin.com/in/isaque-medeiros-a99421268/) - Perfil profissional
 - [:material-email: Email](mailto:medeiroisaque765@gmail.com) - Contato direto
-- [:material-file-document: Blog Técnico]() - Artigos e tutoriais (em breve)
 
 ### **Disponibilidade**
-- **Status:** Aberto a oportunidades e colaborações
-- **Resposta:** 24-48 horas para emails profissionais
-- **Idiomas:** Português (Nativo), Inglês (Intermediário)
+- **Status:** Buscando estágio e oportunidades de aprendizado
+- **Idiomas:** Português (Nativo), Inglês (Técnico - leitura e escrita)
 - **Fuso Horário:** GMT-3 (Brasília)
-
-### **Processo de Contato**
-1. **Email Inicial** - Breve apresentação e objetivo
-2. **Reunião de Alinhamento** - 30min para conhecer melhor
-3. **Proposta Detalhada** - Escopo, prazos e expectativas  
-4. **Início da Colaboração** - Mãos à obra!
 
 ---
 
-*🚀 Sempre em busca de novos desafios e oportunidades de crescimento*  
-*💡 Acredito no poder da tecnologia para transformar ideias em realidade*  
-*🤝 Vamos conversar sobre como posso contribuir com seus projetos!*
+*🚀 Em constante aprendizado e evolução*  
+*💡 Acredito no poder da tecnologia para transformar ideias em realidade*

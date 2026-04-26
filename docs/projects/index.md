@@ -1,92 +1,61 @@
 ---
-title: Projetos em Produção
-description: Coleção de projetos profissionais, acadêmicos e pessoais desenvolvidos
+title: Projetos
+description: Projetos acadêmicos e pessoais
 ---
 
-# 🚀 Projetos em Produção
+# 🚀 Projetos
 
-Bem-vindo à galeria dos meus projetos! Aqui você encontrará uma seleção dos trabalhos mais relevantes que demonstram minhas habilidades técnicas e criatividade.
+Bem-vindo à galeria dos meus projetos! Aqui você encontra os trabalhos que desenvolvi durante minha formação acadêmica e estudos pessoais.
 
-## 📋 Categorias de Projetos
+## 📋 Categorias
 
 ### 🎓 **Projetos Acadêmicos**
-Trabalhos desenvolvidos durante minha formação acadêmica com foco em aplicações práticas:
+Trabalhos desenvolvidos durante a formação:
 
-- **PIM 1º Semestre** - Sistema completo para organização não-governamental
+- **PIM 1º Semestre** - Sistema para organização não-governamental
 - **SysAcad Management** - Sistema de gestão acadêmica em C++
-- **Exercícios de Lógica** - Coleção de algoritmos e soluções em Python
+- **Exercícios de Lógica** - Algoritmos e soluções em Python
 
-### 💼 **Projetos Profissionais**  
-Soluções desenvolvidas para cenários reais com foco em usabilidade:
+### 💼 **Projetos Pessoais**
+Soluções desenvolvidas para aprendizado:
 
-- **Landing de Portfólio** - Site pessoal responsivo e moderno
-- **Sistema de Atendimento** - Automação com Excel e JavaScript
-- **Organização de Planilhas** - Ferramentas de automação em Python
-
-### 🔬 **Protótipos e Experimentos**
-Projetos exploratórios para aprendizado de novas tecnologias:
-
-- **Circuitos Eletrônicos** - Simulações no Tinkercad com Arduino
-- **Cloud Computing** - Implementações em AWS e Microsoft Azure
-- **Assistente IA** - Sistema com processamento de áudio e texto
+- **Landing de Portfólio** - Site pessoal responsivo
+- **BSFM** - Plataforma de nutrição com IA (em desenvolvimento)
 
 ## 🏆 Projetos em Destaque
 
 ### [PIM 1º Semestre](pim-first-semester.md)
-Sistema completo desenvolvido para o Projeto Integrado Multidisciplinar do primeiro semestre de ADS.
+Sistema desenvolvido para o Projeto Integrado Multidisciplinar do primeiro semestre de ADS.
 
 **Tecnologias:** Python, JSON, Interface Web
 **Status:** ✅ Concluído e Documentado
 
 ### [Landing de Portfólio](portfolio-landing.md)
-Website pessoal responsivo com apresentação profissional e galeria de projetos.
+Website pessoal responsivo com apresentação profissional.
 
 **Tecnologias:** HTML5, CSS3, JavaScript
 **Status:** 🚀 Em produção
 
 ### [Exercícios de Lógica](logic-exercises.md)
-Coleção de algoritmos, estruturas de dados e soluções para problemas computacionais.
+Coleção de algoritmos e soluções para problemas computacionais.
 
-**Tecnologias:** Python, Algoritmos, Lógica
+**Tecnologias:** Python, Algoritmos
 **Status:** 📚 Em constante atualização
 
-## 📊 Métricas dos Projetos
+## 📊 Métricas
 
 | Categoria | Quantidade | Status |
 |-----------|------------|---------|
-| **Frontend** | 3 projetos | ✅ Ativos |
-| **Backend** | 4 projetos | 🚀 Produção |
-| **Cloud** | 2 projetos | 🔧 Desenvolvimento |
-| **Embarcados** | 4 projetos | ✅ Concluídos |
+| **Frontend** | 2 projetos | ✅ Ativos |
+| **Backend** | 2 projetos | 🚀 Em desenvolvimento |
 | **Acadêmicos** | 3 projetos | 📚 Documentados |
-
-## 🎯 Objetivos de Desenvolvimento
-
-1. **Qualidade sobre quantidade** - Foco em projetos bem documentados e funcionais
-2. **Aprendizado contínuo** - Exploração de novas tecnologias em cada projeto
-3. **Contribuição open source** - Disponibilização de código para comunidade
-4. **Solucionar problemas reais** - Desenvolvimento com propósito e utilidade prática
-
-## 📁 Estrutura Organizacional
-
-Todos os projetos seguem uma estrutura padronizada:
-
-```
-📦 nome-do-projeto/
-├── 📄 README.md          # Documentação completa
-├── 📁 src/               # Código fonte
-├── 📁 docs/              # Documentação técnica
-├── 📁 assets/            # Recursos visuais
-└── 📄 requirements.txt   # Dependências
-```
 
 ## 🔗 Navegação Rápida
 
-- [:material-github: GitHub Completo](https://github.com/Isaque-Medeiros)
-- [:material-linkedin: Perfil LinkedIn](https://linkedin.com/in/isaque-medeiros)
-- [:material-email: Contato Direto](mailto:medeiroisaque765@gmail.com)
+- [:material-github: GitHub](https://github.com/Isaque-Medeiros)
+- [:material-linkedin: LinkedIn](https://linkedin.com/in/isaque-medeiros-a99421268/)
+- [:material-email: Contato](mailto:medeiroisaque765@gmail.com)
 
 ---
 
-*📅 Última atualização: Abril 2026*  
-*🚀 Novos projetos sendo adicionados regularmente*
+*📅 Última atualização: Abril 2026*

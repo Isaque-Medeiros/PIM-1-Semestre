@@ -1,9 +1,9 @@
 ---
 title: Perfil Profissional
-description: Perfil completo de Isaque de Medeiros - Desenvolvedor em formação com foco em Full Stack, projetos e trajetória acadêmica
+description: Perfil de Isaque de Medeiros - Estudante de ADS em formação, com foco em desenvolvimento e tecnologia
 ---
 
-# Perfil Profissional
+# Perfil
 
 <div class="grid cards" markdown>
 
@@ -14,32 +14,32 @@ description: Perfil completo de Isaque de Medeiros - Desenvolvedor em formação
     **Nome:** Isaque de Medeiros  
     **Idade:** 19 anos  
     **Localização:** São Paulo, Brasil  
-    **Status:** Disponível para estágio e oportunidades júnior
+    **Status:** Buscando estágio e oportunidades de aprendizado
 
 -   :material-school:{ .lg .middle } **Formação**
     
     ---
     
     **Curso:** Análise e Desenvolvimento de Sistemas  
-    **Instituição:** Centro Universitário  
-    **Status:** Em andamento (conclusão 2026)  
-    **Foco:** Engenharia de software e desenvolvimento web
+    **Instituição:** UNIP  
+    **Período:** 2025 - 2026 (em andamento)  
+    **Foco:** Desenvolvimento de software e programação
 
 -   :material-briefcase:{ .lg .middle } **Objetivo**
     
     ---
     
-    **Cargo:** Desenvolvedor Full Stack Júnior  
+    **Cargo:** Estagiário / Desenvolvedor Júnior  
     **Área:** Tecnologia da Informação  
-    **Foco:** Desenvolvimento web, boas práticas, aprendizado contínuo
+    **Foco:** Aprendizado contínuo e desenvolvimento de soluções
 
 -   :material-translate:{ .lg .middle } **Idiomas**
     
     ---
     
     **Português:** Nativo  
-    **Inglês:** Técnico (leitura e escrita avançadas)  
-    **Espanhol:** Básico (em estudo)
+    **Inglês:** Técnico (leitura e escrita)  
+    **Espanhol:** Básico
 
 </div>
 
@@ -47,52 +47,50 @@ description: Perfil completo de Isaque de Medeiros - Desenvolvedor em formação
 
 ## :material-account-details: Apresentação
 
-Olá! Eu sou **Isaque de Medeiros**, estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnologia e transformação digital. Minha trajetória combina formação técnica sólida com prática constante em projetos reais, sempre buscando evolução contínua e impacto positivo através do código.
+Olá! Eu sou **Isaque de Medeiros**, estudante de Análise e Desenvolvimento de Sistemas na UNIP. Minha trajetória começou na ETEC com o curso Técnico em Manutenção e Suporte em Informática (2023-2024), onde tive meu primeiro contato com programação. Atualmente estou no primeiro semestre da faculdade e busco minha primeira oportunidade profissional na área de tecnologia.
 
 ### Filosofia de Trabalho
-- **Qualidade sobre quantidade:** Código limpo, documentado e mantenível
-- **Aprendizado contínuo:** Estudo diário e experimentação prática
+- **Aprendizado contínuo:** Estudo diário e prática constante
+- **Qualidade:** Código limpo e bem documentado
 - **Colaboração:** Trabalho em equipe e troca de conhecimento
-- **Impacto:** Soluções que geram valor real para pessoas e negócios
+- **Honestidade:** Ser transparente sobre meu nível de conhecimento
 
 ---
 
-## :material-chart-line: Trajetória Profissional
+## :material-chart-line: Trajetória
 
 ### Linha do Tempo
 
 ```mermaid
 timeline
-    title Evolução Profissional
-    2018 : Primeiros passos com Lua<br>no Roblox
-    2019-2021 : Formação em Design Gráfico (SAGA)
+    title Minha Jornada
+    2018 : Primeiros contatos com Lua<br>no Roblox
+    2019-2021 : Curso de Design Gráfico (SAGA)
     2023-2024 : Técnico em Manutenção<br>e Suporte em Informática (ETEC)
-    2024-presente : Graduação em ADS<br>Projetos pessoais e acadêmicos
-    2025 : Especialização em .NET<br>e desenvolvimento backend
-    Futuro : Pós-graduação em<br>Engenharia de Software
+    2024 : Primeiro contato com Python<br>BootCamp Santander
+    2025-presente : Graduação em ADS (UNIP)<br>Projetos acadêmicos e pessoais
 ```
 
-### Experiência Relevante
+### Experiência
 
-#### Desenvolvimento de Projetos Pessoais (2023-presente)
-- **BSFM - Brazilian System of Food Metric:** Plataforma completa de nutrição inteligente com IA (.NET 8, PostgreSQL, YOLO)
-- **Portfólio Pessoal:** Site profissional com foco em acessibilidade e performance
-- **Projetos Acadêmicos:** PIM 1º Semestre e outros trabalhos de faculdade
-- **Experimentos Técnicos:** Estudos em diferentes stacks e tecnologias
+#### Projetos Pessoais e Acadêmicos (2024-presente)
+- **BSFM - Brazilian System of Food Metric:** Plataforma de nutrição inteligente com IA (.NET 8, PostgreSQL, YOLO) - Em desenvolvimento
+- **Portfólio Pessoal:** Site profissional com documentação de projetos
+- **PIM 1º Semestre:** Projeto acadêmico integrador
+- **Exercícios de Lógica:** Algoritmos e soluções em Python
 
 #### Formação Técnica (2023-2024)
 - **ETEC - Técnico em Manutenção e Suporte em Informática**
   - Fundamentos de hardware e infraestrutura
   - Sistemas operacionais e redes
   - Suporte técnico e troubleshooting
-  - Projeto final com nota máxima
+  - Primeiros contatos com C++ e Python
 
 #### Design Gráfico (2019-2021)
 - **SAGA - School of Art, Game and Animation**
   - Fundamentos de design e composição visual
   - Ferramentas Adobe (Photoshop, Illustrator)
   - Interface e experiência do usuário
-  - Contribuições para visão de front-end
 
 ---
 
@@ -103,80 +101,68 @@ timeline
 
 | Linguagem | Nível | Experiência |
 | :--- | :--- | :--- |
-| **HTML5** | :material-progress-check:{ style="color: #10b981" } Avançado | 3+ anos |
-| **CSS3** | :material-progress-check:{ style="color: #10b981" } Avançado | 3+ anos |
-| **JavaScript** | :material-progress-check:{ style="color: #3b82f6" } Intermediário | 2+ anos |
-| **Python** | :material-progress-check:{ style="color: #3b82f6" } Intermediário | 2+ anos |
-| **C#** | :material-progress-check:{ style="color: #3b82f6" } Intermediário | 1+ ano |
-| **C++** | :material-progress-check:{ style="color: #f59e0b" } Básico | 1 ano |
-| **Batch Script** | :material-progress-check:{ style="color: #f59e0b" } Básico | 1 ano |
+| **HTML5** | :material-progress-check:{ style="color: #3b82f6" } Intermediário | 1+ ano (estudos) |
+| **CSS3** | :material-progress-check:{ style="color: #3b82f6" } Intermediário | 1+ ano (estudos) |
+| **JavaScript** | :material-progress-check:{ style="color: #f59e0b" } Básico | Estudos autônomos e acadêmicos |
+| **Python** | :material-progress-check:{ style="color: #f59e0b" } Básico | Primeiro contato em 2024 |
+| **C++** | :material-progress-check:{ style="color: #f59e0b" } Básico | Primeiro contato na ETEC (2023) |
+| **SQL** | :material-progress-check:{ style="color: #f59e0b" } Básico | Consultas básicas |
 
 </div>
 
 ### Front-end
-- **HTML Semântico:** Estruturação acessível e SEO-friendly
-- **CSS Moderno:** Flexbox, Grid, animações, variáveis CSS
-- **Design Responsivo:** Mobile-first, media queries, breakpoints
-- **Acessibilidade:** ARIA, contrastes, navegação por teclado
-- **Performance:** Otimização, lazy loading, critical CSS
+- **HTML Semântico:** Estruturação de páginas web
+- **CSS:** Flexbox, Grid, design responsivo
+- **JavaScript:** Manipulação básica do DOM
 
 ### Back-end e Lógica
-- **Lógica de Programação:** Algoritmos, estruturas de dados
-- **POO (Programação Orientada a Objetos):** Classes, herança, polimorfismo
-- **APIs REST:** Consumo e criação de endpoints
-- **Banco de Dados:** Modelagem, queries básicas, ORM
-- **Arquitetura:** MVC, separação de concerns, clean code
+- **Lógica de Programação:** Algoritmos e estruturas de dados básicas
+- **Python:** Scripts simples, automação básica
+- **APIs:** Consumo básico de APIs REST
 
-### Ferramentas e Metodologias
-- **Git e GitHub:** Versionamento, branches, pull requests
-- **VS Code:** Editor principal com extensões produtivas
-- **Figma/Adobe XD:** Prototipagem e design de interfaces
-- **Metodologias Ágeis:** Conceitos básicos de Scrum/Kanban
-- **Documentação:** README, comentários, guias técnicos
+### Ferramentas
+- **Git e GitHub:** Versionamento básico
+- **VS Code:** Editor principal
+- **Figma:** Noções de design de interfaces
 
 ---
 
-## :material-star: Projetos em Destaque
+## :material-star: Projetos
 
 ### BSFM - Brazilian System of Food Metric
 **Stack:** .NET 8.0, PostgreSQL, YOLO AI, Tailwind CSS  
-**Descrição:** Plataforma de nutrição inteligente com análise de alimentos por IA, dashboard personalizado e sistema de metas.  
-**Contribuição:** Arquitetura completa, desenvolvimento full stack, integração de APIs externas.  
-**Status:** :material-check-circle:{ style="color: #10b981" } Em produção
+**Descrição:** Plataforma de nutrição inteligente com análise de alimentos por IA.  
+**Status:** :material-sync:{ style="color: #f59e0b" } Em desenvolvimento
 
 ### Portfólio Pessoal
-**Stack:** HTML5, CSS3, JavaScript, GitHub Pages  
-**Descrição:** Site profissional com apresentação de trajetória, habilidades e projetos.  
-**Contribuição:** Design, desenvolvimento, otimização de performance e acessibilidade.  
+**Stack:** HTML5, CSS3, JavaScript, MkDocs  
+**Descrição:** Site profissional com documentação de projetos.  
 **Status:** :material-sync:{ style="color: #f59e0b" } Em evolução contínua
 
 ### PIM - 1º Semestre
-**Stack:** HTML5, CSS3, JavaScript  
-**Descrição:** Projeto acadêmico de desenvolvimento web com foco em estruturação semântica e responsividade.  
-**Contribuição:** Desenvolvimento completo, deploy, documentação.  
-**Status:** :material-check-circle:{ style="color: #10b981" } Publicado
+**Stack:** Python, JSON, Interface Web  
+**Descrição:** Projeto acadêmico integrador.  
+**Status:** :material-check-circle:{ style="color: #10b981" } Concluído
 
 ---
 
-## :material-target: Objetivos Profissionais
+## :material-target: Objetivos
 
 ### Curto Prazo (2026)
-1. **Consolidar experiência prática** em projetos Full Stack reais
-2. **Atuar como estagiário ou júnior** em equipe de tecnologia
-3. **Aprofundar conhecimentos** em JavaScript moderno e frameworks
-4. **Contribuir para projetos open source** relevantes
+1. **Concluir a graduação** em ADS
+2. **Conseguir estágio** na área de tecnologia
+3. **Aprofundar** em JavaScript e Node.js
+4. **Desenvolver portfolio** com projetos práticos
 
 ### Médio Prazo (2027-2028)
-1. **Especialização técnica** em backend (.NET/Node.js) ou frontend (React/Vue)
-2. **Certificações profissionais** em cloud (AWS/Azure) e boas práticas
-3. **Liderança técnica** em pequenos projetos ou features
-4. **Mentoria** para outros desenvolvedores iniciantes
+1. **Primeira experiência profissional** em desenvolvimento
+2. **Certificações** em cloud computing
+3. **Especialização** em backend ou frontend
 
 ### Longo Prazo (2029+)
-1. **Arquitetura de software** e decisões técnicas complexas
-2. **Pós-graduação** em Engenharia de Software ou Ciência da Computação
-3. **Contribuição significativa** para comunidade técnica brasileira
-4. **Impacto social** através de tecnologia acessível e inclusiva
+1. **Arquitetura de software**
+2. **Contribuição** para comunidade técnica
+3. **Impacto social** através da tecnologia
 
 ---
 
@@ -184,45 +170,18 @@ timeline
 
 ### Graduação
 - **Curso:** Análise e Desenvolvimento de Sistemas
-- **Instituição:** Centro Universitário
-- **Período:** 2024-2026 (em andamento)
-- **Foco:** Engenharia de software, banco de dados, desenvolvimento web, gestão de projetos
+- **Instituição:** UNIP
+- **Período:** 2025-2026 (em andamento)
 
 ### Cursos Técnicos
 1. **ETEC - Técnico em Manutenção e Suporte em Informática** (2023-2024)
-   - Hardware e infraestrutura
-   - Sistemas operacionais (Windows/Linux)
-   - Redes e conectividade
-   - Suporte técnico e helpdesk
-
-2. **SAGA - School of Art, Game and Animation** (2019-2021)
-   - Design gráfico e visual
-   - Ferramentas Adobe Creative Suite
-   - Fundamentos de animação
-   - Interface e experiência do usuário
+2. **SAGA - School of Art, Game and Animation** (2019-2021) - Design Gráfico
 
 ### Cursos Complementares
-- **Algoritmos e Lógica de Programação** (DIO, Udemy)
-- **Git e GitHub para Iniciantes** (DIO, freeCodeCamp)
-- **HTML5 e CSS3 Modernos** (Origamid, Rocketseat)
-- **JavaScript Básico ao Avançado** (DIO, freeCodeCamp)
-- **Python para Data Science** (DIO, Kaggle)
-
----
-
-## :material-heart: Valores Pessoais
-
-### Profissionais
-1. **Ética:** Transparência, honestidade e responsabilidade
-2. **Qualidade:** Código limpo, testes, documentação
-3. **Colaboração:** Trabalho em equipe, comunicação clara
-4. **Aprendizado:** Curiosidade, experimentação, evolução constante
-
-### Pessoais
-1. **Resiliência:** Persistência diante de desafios
-2. **Organização:** Planejamento, priorização, execução
-3. **Empatia:** Colocar-se no lugar do usuário e do colega
-4. **Impacto:** Contribuir para algo maior que si mesmo
+- **BootCamp Santander** - Ciência de Dados com Python
+- **BootCamp Bradesco** - Gen & IA
+- **Microsoft Azure** - Curso avançado (conceitos de cloud)
+- **Algoritmos e Lógica de Programação** - Plataformas online
 
 ---
 
@@ -231,13 +190,11 @@ timeline
 ### Tipo de Oportunidades
 - :material-check-circle: **Estágio em desenvolvimento** (presencial/híbrido/remoto)
 - :material-check-circle: **Júnior/Trainee** em tecnologia
-- :material-check-circle: **Projetos freelance** sob avaliação
-- :material-check-circle: **Colaboração em open source**
+- :material-check-circle: **Projetos acadêmicos** colaborativos
 
 ### Preferências
-- **Modelo:** Preferência por híbrido ou remoto
-- **Carga horária:** Integral ou meio período (flexível)
-- **Início:** Imediato ou combinado
+- **Modelo:** Presencial, híbrido ou remoto
+- **Carga horária:** Flexível (conciliável com horários acadêmicos)
 - **Localização:** São Paulo (capital) ou remoto
 
 ---
@@ -250,30 +207,24 @@ timeline
     
     ---
     
-    Repositórios públicos, projetos open source, contribuições técnicas e evolução do código.
+    Repositórios públicos e projetos acadêmicos.
 
 -   [:material-linkedin: LinkedIn](https://www.linkedin.com/in/isaque-medeiros-a99421268/)
     
     ---
     
-    Perfil profissional completo, experiência, conexões e artigos técnicos.
+    Perfil profissional e conexões na área de tecnologia.
 
 -   [:material-email: Email](mailto:medeiroisaque765@gmail.com)
     
     ---
     
-    Contato direto para propostas, dúvidas técnicas ou conversas informais.
-
--   [:material-file-document: Portfólio](../index.md)
-    
-    ---
-    
-    Site pessoal com apresentação visual, projetos em destaque e trajetória detalhada.
+    Contato direto para propostas e oportunidades.
 
 </div>
 
 ---
 
-:material-lightbulb: **Nota:** Este perfil é atualizado regularmente conforme novos projetos, aprendizados e experiências. Última atualização: Abril 2026.
+*Última atualização: Abril 2026*
 
-*"O código é mais do que instruções para máquinas - é expressão de pensamento lógico, criatividade e solução de problemas."*
+*"Em constante aprendizado, buscando evoluir um pouco a cada dia."*

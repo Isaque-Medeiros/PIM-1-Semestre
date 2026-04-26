@@ -1,244 +1,80 @@
 ---
-title: BSFM - Brazilian System of Food Metric
-description: Plataforma completa de nutrição inteligente com IA para análise de alimentos e acompanhamento nutricional personalizado
+title: Habilidades
+description: Minhas habilidades técnicas e competências em tecnologia
 ---
 
-# BSFM - Brazilian System of Food Metric
+# Habilidades Técnicas
 
-<div class="grid cards" markdown>
+## Linguagens de Programação
 
--   :material-brain:{ .lg .middle } **Visão Geral**
-    
-    ---
-    
-    Conheça a plataforma revolucionária de nutrição inteligente que combina IA, análise nutricional em tempo real e acompanhamento personalizado.
+| Linguagem | Nível | Experiência |
+| :--- | :--- | :--- |
+| **Python** | Básico | Primeiro contato em 2024 (ETEC). Uso para scripts simples, automação e exercícios de lógica. BootCamp Santander de Ciência de Dados. |
+| **JavaScript** | Básico | Estudos autônomos e acadêmicos (UNIP). Manipulação básica do DOM, consumo de APIs. |
+| **HTML5** | Intermediário | Estruturação semântica de páginas web. Projetos acadêmicos e pessoais. |
+| **CSS3** | Intermediário | Estilização com Flexbox, Grid, design responsivo. |
+| **C++** | Básico | Primeiro contato na ETEC (2023). Projetos acadêmicos simples. |
+| **SQL** | Básico | Consultas básicas em bancos relacionais (SQLite, MySQL). |
+| **Batch Script (.bat)** | Básico | Automações simples (ETEC 2023). |
+| **YAML** | Básico | Estudos autônomos voltados para configuração (2025). |
 
-    [:octicons-arrow-right-24: Visão e Missão](#visão-e-missão)
+## Frameworks e Tecnologias
 
--   :material-rocket-launch:{ .lg .middle } **Primeiros Passos**
-    
-    ---
-    
-    Comece a usar o BSFM com nosso guia completo de introdução e configuração inicial.
+### Frontend
+- **HTML Semântico** - Estruturação acessível
+- **CSS Moderno** - Flexbox, Grid, variáveis CSS
+- **Design Responsivo** - Mobile-first, media queries
+- **Tailwind CSS** - Estudos iniciais
 
-    [:octicons-arrow-right-24: Guia do Usuário](user-guide/introduction.md)
+### Backend
+- **Python (Flask)** - Noções básicas de APIs
+- **Node.js** - Em aprendizado (previsão de conclusão em 1 mês)
+- **.NET 8.0** - Em aprendizado (via projeto BSFM)
 
--   :material-code-braces:{ .lg .middle } **Desenvolvimento**
-    
-    ---
-    
-    Documentação técnica completa para desenvolvedores, incluindo arquitetura, API e deployment.
+### Banco de Dados
+- **SQLite** - Banco para desenvolvimento e protótipos
+- **PostgreSQL** - Noções básicas
+- **MySQL** - Noções básicas
 
-    [:octicons-arrow-right-24: Guia do Desenvolvedor](developer-guide/setup.md)
+### Cloud & DevOps
+- **Microsoft Azure** - Curso avançado realizado (conceitos de API, AKS, Functions, WebServices, DB)
+- **AWS** - Conhecimento teórico, leitura técnica e cursos práticos básicos
+- **Git/GitHub** - Versionamento básico
+- **GitHub Actions** - CI/CD básico (deploy de documentação)
 
--   :material-shield-check:{ .lg .middle } **Tecnologia**
-    
-    ---
-    
-    Stack tecnológico, IA, banco de dados e segurança implementados na plataforma.
+### Ferramentas
+- **VS Code** - Editor principal
+- **Git** - Controle de versão
+- **Figma** - Noções de design de interfaces
+- **MkDocs** - Documentação técnica
 
-    [:octicons-arrow-right-24: Tecnologias](technology/ai-ml.md)
+## IA e Modelos de Linguagem
 
-</div>
+### LLMs Utilizados
+- **DeepSeek** - Uso pelo excelente custo-benefício
+- **Claude 3.5 Sonnet** - Uso para codificação
+- **GPT-4/5** - Análise de imagens e relatórios
+- **Gemini 1.5 Flash** - Resoluções rápidas
 
----
+### Ferramentas de IA
+- **Cline** - Agente integrado ao DeepSeek/GPT
+- **Trae** - Editor com IA
 
-## :material-check-circle: Status do Projeto
+## Cursos Relevantes
 
-| Componente | Status | Versão | Notas |
-| :--- | :--- | :--- | :--- |
-| **Backend (.NET 8.0)** | :material-check-circle:{ style="color: #10b981" } Produção | v2.0.0 | API completa com autenticação |
-| **Frontend (Tailwind)** | :material-check-circle:{ style="color: #10b981" } Produção | v2.0.0 | Interface responsiva PWA-ready |
-| **IA (YOLO Model)** | :material-check-circle:{ style="color: #10b981" } Produção | bsfmv1_yolo_final | 452 alimentos reconhecidos |
-| **Banco de Dados** | :material-check-circle:{ style="color: #10b981" } Produção | PostgreSQL 15 | Railway hosting |
-| **Documentação** | :material-progress-check:{ style="color: #3b82f6" } Em expansão | v1.0.0 | Esta documentação |
+- **BootCamp Santander** - Ciência de Dados com Python
+- **BootCamp Bradesco** - Gen & IA
+- **Microsoft Azure** - Curso avançado (integração de API, AKS, Functions, WebServices, DB)
+- **ETEC** - Técnico em Manutenção e Suporte em Informática (2023-2024)
+- **SAGA** - Design Gráfico (2019-2021)
 
----
+## Em Andamento
 
-## :material-target: Visão e Missão
-
-### Visão
-Ser o sistema de referência em métricas alimentares no Brasil, democratizando o acesso à nutrição de qualidade através da tecnologia.
-
-### Missão
-Utilizar inteligência artificial para fornecer análises nutricionais precisas, acompanhamento personalizado e educação alimentar acessível a todos os brasileiros.
-
----
-
-## :material-star: Funcionalidades Principais
-
-### 1. :material-camera: Análise de Alimentos por IA
-- **Detecção visual** de alimentos em tempo real com YOLO Object Detection
-- **Tradução automática** EN → PT para 452 alimentos
-- **Análise nutricional completa** por 100g via USDA API
-- **Suporte a porções** (pequeno, médio, grande) com cálculo automático
-
-### 2. :material-chart-bar: Dashboard Personalizado
-- **Métricas de saúde** (IMC, TMB, Gasto Calórico) com cálculos científicos
-- **Evolução histórica** de peso/altura com gráficos interativos
-- **Progresso nutricional** com visualizações claras e intuitivas
-- **Metas personalizadas** com acompanhamento e notificações
-
-### 3. :material-account: Sistema de Usuários
-- **Cadastro seguro** com verificação por email via Brevo API
-- **Autenticação robusta** com BCrypt hashing e salt automático
-- **Redefinição de senha** com tokens únicos de 6 dígitos
-- **Aceitação de termos** com registro de data e versão
-
-### 4. :material-hospital: Integração Hospitalar
-- **Diretório de hospitais** parceiros com informações completas
-- **Informações de contato** e endereços para acesso rápido
-- **Serviços de saúde** integrados à plataforma
-
-### 5. :material-calendar: Cronograma Alimentar
-- **Planos alimentares** personalizados baseados em perfil metabólico
-- **Refeições diárias** programadas com sugestões inteligentes
-- **Acompanhamento nutricional** semanal com ajustes automáticos
+- **Node.js** - Previsão de término: 1 mês
+- **React.js** - Estudos iniciais
+- **Análise e Desenvolvimento de Sistemas** - UNIP (2025-2026)
 
 ---
 
-## :material-cog: Arquitetura Técnica
-
-### Stack Tecnológico Principal
-
-#### Backend (.NET 8.0)
-- **Framework:** ASP.NET Core 8.0 (Minimal APIs)
-- **Banco de Dados:** PostgreSQL (Railway) + SQLite (desenvolvimento)
-- **ORM:** Entity Framework Core 8.0 (Code-First)
-- **Autenticação:** BCrypt.Net-Next para hash de senhas
-- **Email:** MailKit + MimeKit + Brevo API
-- **IA:** YoloDotNet + ONNX Runtime
-
-#### Frontend (HTML/CSS/JS)
-- **Framework CSS:** Tailwind CSS 3.0+
-- **Fontes:** Google Fonts (Inter + Outfit)
-- **Ícones:** Font Awesome 6.4.0 + Material Design Icons
-- **Design System:** Glassmorphism + Gradients + Animations
-
-#### APIs Externas Integradas
-- **USDA FoodData Central API** - Dados nutricionais científicos
-- **Brevo API** - Serviços de email transacional
-- **YOLO Object Detection** - Reconhecimento de alimentos
-
----
-
-## :material-chart-line: Impacto e Métricas
-
-### KPIs do Produto
-- **Usuários ativos:** 10,000/mês (meta)
-- **Análises realizadas:** 50,000/mês (meta)
-- **Precisão da IA:** >80% em testes
-- **Satisfação do usuário:** >4.5/5 (meta)
-
-### Impacto na Saúde
-- **Redução de IMC:** 15% dos usuários (meta)
-- **Melhoria alimentar:** 70% dos usuários (meta)
-- **Adesão ao tratamento:** 40% aumento (meta)
-
----
-
-## :material-book-open: Documentação por Tipo de Usuário
-
-<div class="grid" markdown>
-
-- **Usuários Finais**
-    
-    ---
-    
-    Aprenda a usar todas as funcionalidades da plataforma para melhorar sua saúde alimentar.
-    
-    [:octicons-arrow-right-24: Guia do Usuário](user-guide/introduction.md)
-
-- **Desenvolvedores**
-    
-    ---
-    
-    Implemente, estenda ou integre o BSFM em seus projetos com nossa documentação técnica completa.
-    
-    [:octicons-arrow-right-24: Guia do Desenvolvedor](developer-guide/setup.md)
-
-- **Profissionais de Saúde**
-    
-    ---
-    
-    Utilize o BSFM como ferramenta de apoio em consultas e acompanhamento de pacientes.
-    
-    [:octicons-arrow-right-24: Casos de Uso](user-guide/food-analysis.md)
-
-- **Parceiros**
-    
-    ---
-    
-    Integre o BSFM em sua instituição ou produto através de nossa API pública.
-    
-    [:octicons-arrow-right-24: API Reference](developer-guide/api.md)
-
-</div>
-
----
-
-## :material-history: Roadmap
-
-### Fase 1 - MVP Atual ✅
-- [x] Análise básica de alimentos com IA
-- [x] Sistema de usuários completo
-- [x] Dashboard simples com métricas
-- [x] Integração USDA API
-
-### Fase 2 - Aprimoramentos 🚧
-- [ ] App mobile nativo (React Native/Flutter)
-- [ ] Reconhecimento de porções automático
-- [ ] Planos alimentares gerados por IA
-- [ ] Integração com wearables (Apple Health/Google Fit)
-
-### Fase 3 - Expansão 📅
-- [ ] API pública para desenvolvedores
-- [ ] Marketplace de profissionais de nutrição
-- [ ] Análise de receitas completas
-- [ ] Integração com supermercados e delivery
-
----
-
-## :material-download: Comece Agora
-
-<div class="grid" markdown>
-
--   **Para Usuários**
-    
-    ---
-    
-    Acesse a plataforma e comece sua jornada de saúde alimentar hoje mesmo.
-    
-    [:material-rocket-launch: Acessar BSFM](https://bsfm-app.railway.app/){ .md-button .md-button--primary }
-
--   **Para Desenvolvedores**
-    
-    ---
-    
-    Clone o repositório e configure o ambiente de desenvolvimento local.
-    
-    [:material-code-braces: Setup Local](developer-guide/setup.md){ .md-button }
-
--   **Para Contribuidores**
-    
-    ---
-    
-    Contribua com o projeto open source através de issues e pull requests.
-    
-    [:material-github: GitHub Repository](https://github.com/Isaque-Medeiros/BSFM){ .md-button }
-
-</div>
-
----
-
-## :material-help-circle: Suporte
-
-- **Documentação:** Esta documentação completa com FAQ
-- **GitHub Issues:** [Reportar bugs](https://github.com/Isaque-Medeiros/BSFM/issues)
-- **Email:** suporte@bsfm.com.br (contato direto)
-- **Comunidade:** Discord para desenvolvedores e usuários
-
----
-
-*Documentação atualizada em Abril 2026 - BSFM Team*  
-*Plataforma em constante evolução com atualizações semanais*
+*Habilidades atualizadas em Abril de 2026*  
+*Sempre em evolução com novos aprendizados*

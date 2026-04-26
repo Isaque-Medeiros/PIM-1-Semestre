@@ -13,7 +13,7 @@ description: Projeto acadêmico de desenvolvimento web com foco em estruturaçã
 
 ### :material-check-circle: Status do Projeto
 - **Status:** :material-check-circle:{ style="color: #10b981" } Publicado e ativo
-- **Última atualização:** Março 2024
+- **Última atualização:** 2025
 - **Disponibilidade:** [Acessar projeto](https://isaque-medeiros.github.io/PIM-1-Semestre/)
 - **Repositório:** [GitHub](https://github.com/Isaque-Medeiros/PIM-1-Semestre)
 

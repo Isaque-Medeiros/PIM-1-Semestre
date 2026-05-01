@@ -80,6 +80,8 @@ markdown_extensions:
 
 extra_css:
   - css/custom.css
+  - stylesheets/custom.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - js/custom.js
@@ -101,6 +103,11 @@ nav:
   - Home: index.md
   - BSFM - Brazilian System of Food Metric:
     - Início BSFM: bsfm/index.md
+    - Visão Geral:
+      - Sobre o BSFM: about/visao-missao.md
+      - Planejamento: bsfm/planejamento.md
+      - Roadmap: roadmap/index.md
+      - Changelog: changelog/index.md
     - Guia do Usuário:
       - Introdução: bsfm/user-guide/introduction.md
       - Primeiros Passos: bsfm/user-guide/getting-started.md
@@ -109,15 +116,32 @@ nav:
       - Metas: bsfm/user-guide/goals.md
       - FAQ: bsfm/user-guide/faq.md
     - Guia do Desenvolvedor:
-      - Setup: bsfm/developer-guide/setup.md
+      - Guia do Desenvolvedor: bsfm/developer-guide/setup.md
       - Arquitetura: bsfm/developer-guide/architecture.md
       - API Reference: bsfm/developer-guide/api.md
       - Deployment: bsfm/developer-guide/deployment.md
+    - Instalação e Configuração:
+      - Instalação: bsfm/instalacao.md
+      - Configuração: bsfm/config.md
+      - Começar a Aprender: bsfm/comecar-aprender.md
+    - Referência:
+      - Referência Técnica: bsfm/referencia.md
+      - Casos de Uso: caso-de-uso/index.md
+      - Glossário: glossario/index.md
+      - Banco de Dados: bsfm/database-schema.md
     - Tecnologia:
       - IA e Machine Learning: bsfm/technology/ai-ml.md
       - Banco de Dados: bsfm/technology/database.md
       - Frontend: bsfm/technology/frontend.md
       - Segurança: bsfm/technology/security.md
+    - CoreAnalytics:
+      - Visão Geral: core-analytics/index.md
+      - NutriBrain Service: core-analytics/nutribrain.md
+      - Context Injector: core-analytics/context-injector.md
+      - OCR e Tesseract: core-analytics/ocr-tesseract.md
+      - Health Score: core-analytics/health-score.md
+      - Dados de Saúde: core-analytics/dados-saude.md
+      - API de Rótulos: core-analytics/api-rotulos.md
   - Projetos em Produção:
     - Galeria de Projetos: projects/index.md
     - PIM 1º Semestre: projects/pim-first-semester.md
